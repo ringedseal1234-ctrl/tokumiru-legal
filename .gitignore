@@ -1,0 +1,52 @@
+# tokumiru-legal は法的文書のみのリポジトリ。
+# ソースコード・ビルド成果物・機密ファイルを物理的に締め出す。
+# （万一 cp/移動で混入しても add されない＝誤公開を防ぐ）
+
+# --- ソースコード言語 ---
+*.dart
+*.ts
+*.tsx
+*.js
+*.jsx
+*.kt
+*.java
+*.swift
+*.gradle
+*.podspec
+
+# --- プロジェクト/ビルド ディレクトリ ---
+lib/
+functions/
+android/
+ios/
+web/
+src/
+build/
+.dart_tool/
+node_modules/
+
+# --- 機密・設定ファイル ---
+.env
+.env.*
+*.key
+*.pem
+*.keystore
+*.jks
+firebase.json
+.firebaserc
+google-services.json
+GoogleService-Info.plist
+serviceAccount*.json
+*secret*
+*credential*
+
+# --- Jekyll ビルド成果物 ---
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# --- OS/エディタ ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

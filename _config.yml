@@ -1,0 +1,33 @@
+# GitHub Pages (Jekyll) 設定
+# このリポジトリは「トクミル」の法的文書（利用規約・プライバシーポリシー・特商法表記）専用。
+# アプリのソースコードは絶対に置かない（別リポジトリ tokumiru で管理）。
+
+title: トクミル 法的文書
+description: 利用規約・プライバシーポリシー・特定商取引法に基づく表記
+lang: ja
+
+# テーマ（GitHub Pages 標準。最小・無料）
+theme: jekyll-theme-minimal
+
+# 公開不要ファイルをビルド対象から除外（万一混入しても出力されない）
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - .gitignore
+  - LICENSE
+  - "*.dart"
+  - "*.ts"
+  - "*.js"
+  - "*.yaml"
+  - "*.json"
+  - "*.gradle"
+  - "*.kt"
+  - "*.swift"
+  - lib/
+  - functions/
+  - android/
+  - ios/
+  - src/
+
+# Markdown エンジン
+markdown: kramdown

@@ -1,33 +1,45 @@
-# GitHub Pages (Jekyll) 設定
-# このリポジトリは「トクミル」の法的文書（利用規約・プライバシーポリシー・特商法表記）専用。
-# アプリのソースコードは絶対に置かない（別リポジトリ tokumiru で管理）。
-
-title: トクミル 法的文書
-description: 利用規約・プライバシーポリシー・特定商取引法に基づく表記
+title: トクミル
+description: 日用品・加工食品の価格を、バーコードや商品画像から見比べる価格比較アプリ
 lang: ja
+url: https://ringedseal1234-ctrl.github.io
+baseurl: /tokumiru-legal
+repository: ringedseal1234-ctrl/tokumiru-legal
 
-# テーマ（GitHub Pages 標準。最小・無料）
-theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
 
-# 公開不要ファイルをビルド対象から除外（万一混入しても出力されない）
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/images/og-image.svg
+  - scope:
+      path: ""
+      type: pages
+    values:
+      lang: ja
+
 exclude:
   - README.md
-  - CONTRIBUTING.md
-  - .gitignore
-  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - build/
   - "*.dart"
   - "*.ts"
-  - "*.js"
-  - "*.yaml"
-  - "*.json"
-  - "*.gradle"
   - "*.kt"
+  - "*.java"
   - "*.swift"
+  - "*.gradle"
   - lib/
   - functions/
   - android/
   - ios/
   - src/
 
-# Markdown エンジン
-markdown: kramdown
+strict_front_matter: true

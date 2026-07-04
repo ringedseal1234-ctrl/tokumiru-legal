@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#00875A">
+<meta name="color-scheme" content="light">
+
+{% assign page_title = page.title | default: site.title %}
+{% if page_title == site.title %}
+  {% assign full_title = site.title %}
+{% else %}
+  {% assign full_title = page_title | append: " | " | append: site.title %}
+{% endif %}
+{% assign page_description = page.description | default: site.description %}
+{% assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% assign social_image = page.image | default: "/assets/images/og-image.svg" | absolute_url %}
+
+<title>{{ full_title | escape }}</title>
+<meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+<link rel="canonical" href="{{ canonical_url }}">
+<link rel="icon" href="{{ "/assets/images/favicon.svg" | relative_url }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="{{ full_title | escape }}">
+<meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{ social_image }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "トクミル",
+  "applicationCategory": "ShoppingApplication",
+  "operatingSystem": "Android",
+  "description": {{ site.description | jsonify }},
+  "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }}
+}
+</script>

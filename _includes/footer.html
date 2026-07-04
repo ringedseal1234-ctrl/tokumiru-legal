@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <a class="brand brand--footer" href="{{ "/" | relative_url }}">
+        <span class="brand__mark" aria-hidden="true">ト</span>
+        <span class="brand__name">トクミル</span>
+      </a>
+      <p class="site-footer__copy">買う前の「どっちがお得？」を、すばやく見比べる。</p>
+    </div>
+    <nav class="footer-nav" aria-label="フッターナビゲーション">
+      <div>
+        <p class="footer-nav__title">サービス</p>
+        <a href="{{ "/features.html" | relative_url }}">できること</a>
+        <a href="{{ "/support.html" | relative_url }}">サポート</a>
+        <a href="{{ "/data-deletion.html" | relative_url }}">データの削除</a>
+      </div>
+      <div>
+        <p class="footer-nav__title">法的情報</p>
+        <a href="{{ "/terms.html" | relative_url }}">利用規約</a>
+        <a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>
+        <a href="{{ "/tokushoho.html" | relative_url }}">特定商取引法に基づく表記</a>
+      </div>
+    </nav>
+  </div>
+  <div class="site-footer__bottom">
+    <p>&copy; {{ "now" | date: "%Y" }} Ringed Seal Studio</p>
+    <p>このサイトはCookieやアクセス解析を使用しません。</p>
+  </div>
+</footer>

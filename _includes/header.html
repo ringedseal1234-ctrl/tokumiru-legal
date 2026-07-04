@@ -1,0 +1,23 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="{{ "/" | relative_url }}" aria-label="トクミル ホーム">
+      <span class="brand__mark" aria-hidden="true">ト</span>
+      <span class="brand__name">トクミル</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="メインナビゲーション">
+      <a href="{{ "/features.html" | relative_url }}">できること</a>
+      <a href="{{ "/support.html" | relative_url }}">サポート</a>
+      <a href="{{ "/legal.html" | relative_url }}">法的情報</a>
+    </nav>
+
+    <details class="mobile-nav">
+      <summary>メニュー</summary>
+      <nav aria-label="モバイルナビゲーション">
+        <a href="{{ "/features.html" | relative_url }}">できること</a>
+        <a href="{{ "/support.html" | relative_url }}">サポート</a>
+        <a href="{{ "/legal.html" | relative_url }}">法的情報</a>
+      </nav>
+    </details>
+  </div>
+</header>

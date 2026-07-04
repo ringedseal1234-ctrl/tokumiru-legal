@@ -1,31 +1,15 @@
-# tokumiru-legal は法的文書のみのリポジトリ。
-# ソースコード・ビルド成果物・機密ファイルを物理的に締め出す。
-# （万一 cp/移動で混入しても add されない＝誤公開を防ぐ）
+# Jekyll build
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+vendor/
 
-# --- ソースコード言語 ---
-*.dart
-*.ts
-*.tsx
-*.js
-*.jsx
-*.kt
-*.java
-*.swift
-*.gradle
-*.podspec
-
-# --- プロジェクト/ビルド ディレクトリ ---
-lib/
-functions/
-android/
-ios/
-web/
-src/
-build/
-.dart_tool/
+# Dependencies
+.bundle/
 node_modules/
 
-# --- 機密・設定ファイル ---
+# Secrets and private configuration
 .env
 .env.*
 *.key
@@ -40,12 +24,22 @@ serviceAccount*.json
 *secret*
 *credential*
 
-# --- Jekyll ビルド成果物 ---
-_site/
-.jekyll-cache/
-.sass-cache/
+# App source must remain in the private tokumiru repository
+*.dart
+*.ts
+*.tsx
+*.kt
+*.java
+*.swift
+*.gradle
+*.podspec
+lib/
+functions/
+android/
+ios/
+src/
 
-# --- OS/エディタ ---
+# Editors and OS
 .DS_Store
 Thumbs.db
 .vscode/

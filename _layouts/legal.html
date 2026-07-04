@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="legal-shell">
+  <nav class="breadcrumb" aria-label="パンくず">
+    <a href="{{ "/" | relative_url }}">ホーム</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ "/legal.html" | relative_url }}">法的情報</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ page.title }}</span>
+  </nav>
+
+  <article class="legal-document">
+    <header class="legal-document__header">
+      <p class="eyebrow">Legal</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.updated %}<p class="legal-document__date">最終更新日: {{ page.updated }}</p>{% endif %}
+      {% if page.summary %}<p class="legal-document__summary">{{ page.summary }}</p>{% endif %}
+    </header>
+    <div class="legal-document__body">
+      {{ content }}
+    </div>
+  </article>
+
+  <nav class="legal-siblings" aria-label="法的文書">
+    <a href="{{ "/terms.html" | relative_url }}">利用規約</a>
+    <a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>
+    <a href="{{ "/tokushoho.html" | relative_url }}">特定商取引法に基づく表記</a>
+  </nav>
+</div>

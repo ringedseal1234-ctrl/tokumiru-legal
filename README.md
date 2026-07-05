@@ -20,14 +20,32 @@
 
 ## ローカル確認
 
-RubyとBundlerが利用できる環境:
+### 初回セットアップ
 
-```powershell
+このプロジェクトはRuby 3.3.11とBundler 2.5.22を使用する。
+rbenvを利用する場合、リポジトリへ移動すると `.ruby-version` によりRuby 3.3.11が選択される。
+
+```bash
+ruby -v
+gem install bundler -v 2.5.22
 bundle install
+```
+
+`ruby -v` が `ruby 3.3.11` であることを確認する。
+
+### サイトの起動
+
+```bash
 bundle exec jekyll serve
 ```
 
 ブラウザで `http://127.0.0.1:4000/tokumiru-legal/` を開く。
+
+### ビルド確認
+
+```bash
+bundle exec jekyll build --trace
+```
 
 ## 更新時の確認
 

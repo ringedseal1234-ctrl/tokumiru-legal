@@ -19,7 +19,7 @@ body_class: home
         <a class="button" href="#how-it-works">使い方を見る</a>
         <a class="button button--secondary" href="{{ "/features.html" | relative_url }}">できること</a>
       </div>
-      <p class="release-status">Android版を公開準備中</p>
+      <p class="release-status">Android版・iOS版を公開準備中</p>
     </div>
 
     <div class="scan-scene" role="img" aria-label="バーコードを読み取り、店頭価格とEC価格を比較するイメージ">
@@ -127,6 +127,32 @@ body_class: home
         <div class="savings-visual__bar"></div>
         <div class="savings-visual__bar"></div>
         <div class="savings-visual__bar"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section map-feature">
+  <div class="content-shell">
+    <div class="feature-row">
+      <div class="feature-row__copy">
+        <p class="eyebrow">Lowest price map</p>
+        <h3>近くの最安値を、地図でひと目に。</h3>
+        <p>
+          最安値MAPなら、周辺店舗に投稿された価格情報を地図上で確認できます。
+          行く前に価格の目安を把握して、寄り道するお店を選べます。
+        </p>
+        <p class="feature-row__note">位置情報の利用は任意です。価格情報は投稿状況により、地域によって表示されない場合があります。</p>
+      </div>
+      <div class="map-preview" role="img" aria-label="周辺店舗の価格情報と最安値を地図で表示するイメージ">
+        <div class="map-preview__roads" aria-hidden="true"></div>
+        <div class="map-preview__area map-preview__area--one" aria-hidden="true"></div>
+        <div class="map-preview__area map-preview__area--two" aria-hidden="true"></div>
+        <div class="map-pin map-pin--best"><span>最安</span><strong>¥398</strong></div>
+        <div class="map-pin map-pin--near"><span>スーパー</span><strong>¥428</strong></div>
+        <div class="map-pin map-pin--third"><span>ドラッグストア</span><strong>¥418</strong></div>
+        <div class="map-preview__you">現在地</div>
+        <div class="map-preview__legend"><span></span>投稿された価格情報</div>
       </div>
     </div>
   </div>

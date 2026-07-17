@@ -46,21 +46,30 @@ body_class: home
 
 <section class="section section--surface" id="how-it-works">
   <div class="content-shell">
-    <header class="section-heading">
+    <header class="section-heading reveal">
       <p class="eyebrow">How it works</p>
       <h2>比べるまで、3ステップ。</h2>
       <p>商品の特定から価格の比較まで、買い物中でも迷わない流れを目指しています。</p>
     </header>
     <div class="steps">
-      <article class="step">
+      <article class="step reveal">
+        <span class="step__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M20 8V5a1 1 0 0 0-1-1h-3M4 16v3a1 1 0 0 0 1 1h3M20 16v3a1 1 0 0 1-1 1h-3M4 12h16"/></svg>
+        </span>
         <h3>商品を読み取る</h3>
         <p>まずはバーコードをスキャン。値札も読み取れば、店頭価格を比較へ加えられます。バーコードが使えない商品は、パッケージ画像から候補を探せます。</p>
       </article>
-      <article class="step">
+      <article class="step reveal">
+        <span class="step__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v11a3 3 0 0 0 6 0V3M4 6h6M14 6h6M7 3v3M17 3v3M17 14l3 3-3 3M17 17H10"/></svg>
+        </span>
         <h3>価格を見比べる</h3>
         <p>楽天市場、Yahoo!ショッピングなどのEC価格を取得。送料、内容量、個数を見ながら単価でも比較できます。</p>
       </article>
-      <article class="step">
+      <article class="step reveal">
+        <span class="step__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/><path d="M9 13l2 2 4-4"/></svg>
+        </span>
         <h3>買い物を記録する</h3>
         <p>購入を記録すると、節約レポートと買い時ノートに反映。次の買い物に活かせます。</p>
       </article>
@@ -70,13 +79,13 @@ body_class: home
 
 <section class="section">
   <div class="content-shell">
-    <header class="section-heading">
+    <header class="section-heading reveal">
       <p class="eyebrow">Compare clearly</p>
       <h2>安さだけでなく、買い方まで見える。</h2>
       <p>価格、送料、内容量、個数、店頭価格を並べ、選ぶために必要な情報へすぐ届く構成です。</p>
     </header>
 
-    <div class="feature-row">
+    <div class="feature-row reveal">
       <div class="feature-row__copy">
         <h3>ECと店頭を、同じ目線で。</h3>
         <p>
@@ -111,7 +120,7 @@ body_class: home
       </div>
     </div>
 
-    <div class="feature-row feature-row--reverse">
+    <div class="feature-row feature-row--reverse reveal">
       <div class="feature-row__copy">
         <h3>節約と買い時を、あとから実感。</h3>
         <p>
@@ -134,7 +143,7 @@ body_class: home
 
 <section class="section map-feature">
   <div class="content-shell">
-    <div class="feature-row">
+    <div class="feature-row reveal">
       <div class="feature-row__copy">
         <p class="eyebrow">Lowest price map</p>
         <h3>近くの最安値を、地図でひと目に。</h3>
@@ -160,21 +169,30 @@ body_class: home
 
 <section class="section section--surface">
   <div class="content-shell">
-    <header class="section-heading">
+    <header class="section-heading reveal">
       <p class="eyebrow">Privacy by design</p>
       <h2>必要な情報だけを、必要なときに。</h2>
       <p>カメラや位置情報を使うアプリだからこそ、取得範囲と利用目的を明確にします。</p>
     </header>
-    <div class="trust-grid">
+    <div class="trust-grid reveal">
       <article class="trust-item">
+        <span class="trust-item__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        </span>
         <h3>位置情報は任意</h3>
         <p>近隣店舗の候補や地域価格を使う場合だけ許可を求めます。生の現在地は永続保存しません。</p>
       </article>
       <article class="trust-item">
+        <span class="trust-item__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3.2"/><path d="M8 6l1.4-2h5.2L16 6"/></svg>
+        </span>
         <h3>画像利用を限定</h3>
         <p>バーコードと文字認識は端末上で処理。クラウド認識を選んだ場合だけ、対象画像を解析へ送信します。</p>
       </article>
       <article class="trust-item">
+        <span class="trust-item__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1l1-13"/><path d="M10 11v6M14 11v6"/></svg>
+        </span>
         <h3>いつでも削除</h3>
         <p>設定画面からアカウントと関連データの削除を開始できます。匿名の利用統計も設定で停止できます。</p>
       </article>
@@ -183,7 +201,7 @@ body_class: home
 </section>
 
 <section class="section section--accent">
-  <div class="content-shell cta-band">
+  <div class="content-shell cta-band reveal">
     <div>
       <h2>公開に向けて準備中。</h2>
       <p>ストア公開後、このサイトで正式なダウンロード先を案内します。</p>

@@ -17,7 +17,7 @@
 <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
 <link rel="canonical" href="{{ canonical_url }}">
 <link rel="icon" href="{{ "/assets/images/favicon.svg" | relative_url }}" type="image/svg+xml">
-<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.title | escape }}">

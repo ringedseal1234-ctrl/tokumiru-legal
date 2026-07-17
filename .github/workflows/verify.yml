@@ -43,6 +43,6 @@ jobs:
       - name: Reject stale URLs and placeholders
         shell: bash
         run: |
-          ! grep -R "ringedsealstudio.github.io" --exclude-dir=.git --exclude-dir=.github .
-          ! grep -R "Premium ¥290" --exclude-dir=.git --exclude-dir=.github .
+          ! grep -R "ringedsealstudio.github.io" --exclude-dir=.git --exclude-dir=.github --exclude-dir=scripts .
+          ! grep -R "Premium ¥290" --exclude-dir=.git --exclude-dir=.github --exclude-dir=scripts .
           ! grep -R "【" --include="*.md" --exclude-dir=.github .

@@ -12,7 +12,7 @@ body_class: home
       <h1>トクミル</h1>
       <p class="hero__tagline">その値段、買う前に見比べる。</p>
       <p class="hero__description">
-        バーコードを読み取って、EC価格と店頭価格をひとつの画面で比較。
+        バーコードと値札を読み取って、EC価格と店頭価格をひとつの画面で比較。
         いつもの買い物を、迷いにくく、振り返りやすくします。
       </p>
       <div class="hero__actions">
@@ -54,15 +54,15 @@ body_class: home
     <div class="steps">
       <article class="step">
         <h3>商品を読み取る</h3>
-        <p>まずはバーコードをスキャン。バーコードが使えない商品は、パッケージ画像から候補を探せます。</p>
+        <p>まずはバーコードをスキャン。値札も読み取れば、店頭価格を比較へ加えられます。バーコードが使えない商品は、パッケージ画像から候補を探せます。</p>
       </article>
       <article class="step">
         <h3>価格を見比べる</h3>
-        <p>楽天市場、Yahoo!ショッピングなどのEC価格を取得。送料や内容量も見ながら比較できます。</p>
+        <p>楽天市場、Yahoo!ショッピングなどのEC価格を取得。送料、内容量、個数を見ながら単価でも比較できます。</p>
       </article>
       <article class="step">
         <h3>買い物を記録する</h3>
-        <p>購入候補をリストへ追加し、店頭価格や節約額を記録。次の買い物に活かせます。</p>
+        <p>購入を記録すると、節約レポートと買い時ノートに反映。次の買い物に活かせます。</p>
       </article>
     </div>
   </div>
@@ -73,7 +73,7 @@ body_class: home
     <header class="section-heading">
       <p class="eyebrow">Compare clearly</p>
       <h2>安さだけでなく、買い方まで見える。</h2>
-      <p>価格、送料、内容量、店頭価格を並べ、選ぶために必要な情報へすぐ届く構成です。</p>
+      <p>価格、送料、内容量、個数、店頭価格を並べ、選ぶために必要な情報へすぐ届く構成です。</p>
     </header>
 
     <div class="feature-row">
@@ -81,7 +81,7 @@ body_class: home
         <h3>ECと店頭を、同じ目線で。</h3>
         <p>
           ECサイトの検索結果だけでなく、目の前の棚札価格も比較対象に。
-          最安値だけを断定せず、取得時点と条件が分かる表示を重視しています。
+          送料や個数を加味した単価、取得時点、条件が分かる表示を重視しています。
         </p>
       </div>
       <div class="feature-visual" role="img" aria-label="価格比較の表示例">
@@ -113,10 +113,10 @@ body_class: home
 
     <div class="feature-row feature-row--reverse">
       <div class="feature-row__copy">
-        <h3>節約を、あとから実感。</h3>
+        <h3>節約と買い時を、あとから実感。</h3>
         <p>
-          購入時に記録した節約額を月ごとに集計。
-          一回の差額だけでなく、毎日の選択がどれくらい積み重なったかを振り返れます。
+          購入時に記録した節約額を月・年ごとに集計。購入履歴から自分の底値を振り返り、
+          EC相場のデータが集まった商品は買い時の目安も確認できます。
         </p>
       </div>
       <div class="feature-visual savings-visual" role="img" aria-label="日ごとの節約額を表す棒グラフのイメージ">
@@ -139,10 +139,10 @@ body_class: home
         <p class="eyebrow">Lowest price map</p>
         <h3>近くの最安値を、地図でひと目に。</h3>
         <p>
-          最安値MAPなら、周辺店舗に投稿された価格情報を地図上で確認できます。
+          最安値MAPなら、値札スキャンをきっかけに記録された周辺店舗の価格情報を地図上で確認できます。
           行く前に価格の目安を把握して、寄り道するお店を選べます。
         </p>
-        <p class="feature-row__note">位置情報の利用は任意です。価格情報は投稿状況により、地域によって表示されない場合があります。</p>
+        <p class="feature-row__note">ベータ版の機能です。位置情報の利用は任意で、価格情報は蓄積状況により地域によって表示されない場合があります。</p>
       </div>
       <div class="map-preview" role="img" aria-label="周辺店舗の価格情報と最安値を地図で表示するイメージ">
         <div class="map-preview__roads" aria-hidden="true"></div>

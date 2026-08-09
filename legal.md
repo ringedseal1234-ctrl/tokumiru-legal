@@ -3,6 +3,9 @@ layout: page
 title: 法的情報
 eyebrow: Legal
 lead: トクミルの利用条件、情報の取り扱い、運営者情報を確認できます。
+hero_image: /assets/images/lp/document-photo.webp
+hero_width: 1774
+hero_height: 887
 description: トクミルの利用規約、プライバシーポリシー、特定商取引法に基づく表記
 permalink: /legal.html
 ---

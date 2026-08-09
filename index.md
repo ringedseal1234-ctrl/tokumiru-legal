@@ -19,7 +19,7 @@ body_class: home
       <p class="release-status">Android版・iOS版を公開準備中</p>
     </div>
     <div class="hero-art" role="img" aria-label="スマートフォン、値札、地図上の価格ピンで、価格比較と価格情報のつながりを表したイラスト">
-      <img src="{{ "/assets/images/lp/hero-community.webp" | relative_url }}" width="1600" height="999" fetchpriority="high" alt="">
+      <img src="{{ "/assets/images/lp/hero-community-photo.webp" | relative_url }}" width="1586" height="992" fetchpriority="high" decoding="async" alt="">
       <span class="hero-art__signal hero-art__signal--one" aria-hidden="true"></span>
       <span class="hero-art__signal hero-art__signal--two" aria-hidden="true"></span>
     </div>
@@ -38,6 +38,9 @@ body_class: home
       <article class="loop-step reveal"><span class="loop-step__number">02</span><span class="loop-step__icon" aria-hidden="true">＋</span><h3>価格のヒントが育つ</h3><p>条件を満たした店頭価格は、個人を特定しない形で蓄積されます。</p></article>
       <article class="loop-step reveal"><span class="loop-step__number">03</span><span class="loop-step__icon" aria-hidden="true">⌖</span><h3>みんなの次の選択へ</h3><p>蓄積された情報が、周辺の最安値を探すヒントになります。</p></article>
     </div>
+    <figure class="community-visual reveal">
+      <img src="{{ "/assets/images/lp/community-loop-photo.webp" | relative_url }}" width="1448" height="1086" loading="lazy" decoding="async" alt="値札、買い物袋、スマートフォンと価格情報のつながりを表した写真">
+    </figure>
     <p class="community-note reveal">価格情報の登録を強制するものではありません。位置情報の利用も任意です。</p>
   </div>
 </section>
@@ -57,7 +60,7 @@ body_class: home
 <section class="section section--map">
   <div class="content-shell split-feature">
     <div class="split-feature__copy reveal"><p class="eyebrow">Lowest price map · beta</p><h2>近くの価格が見えると、<br>寄り道にも理由ができる。</h2><p>最安値MAPでは、値札スキャンをきっかけに記録された周辺店舗の価格情報を地図と一覧で確認できます。行く前に価格の目安を知って、今日の買い物を選びやすくします。</p><ul class="feature-points"><li>位置情報の利用は任意</li><li>個人を特定する情報は公開しない</li><li>地域・時期により価格情報が少ない場合あり</li></ul></div>
-    <figure class="map-art reveal"><img src="{{ "/assets/images/lp/community-map.webp" | relative_url }}" width="1200" height="900" loading="lazy" alt="抽象化した地図上に複数の価格ピンが表示された最安値MAPのイメージ"></figure>
+    <figure class="map-art reveal"><img src="{{ "/assets/images/lp/map-community-photo.webp" | relative_url }}" width="1448" height="1086" loading="lazy" decoding="async" alt="紙の地図と複数のピン、スマートフォンで最安値MAPを表した写真"></figure>
   </div>
 </section>
 

@@ -3,6 +3,9 @@ layout: page
 title: できること
 eyebrow: Features
 lead: 商品を見つける、価格を比べる、近くの最安値を地図で探す。トクミルの機能を、ひと目で紹介します。
+hero_image: /assets/images/lp/features-photo.webp
+hero_width: 1122
+hero_height: 1402
 description: トクミルのバーコード・値札スキャン、価格比較、買い時ノート、目標価格通知、家族共有、最安値MAPなどの機能
 permalink: /features.html
 ---

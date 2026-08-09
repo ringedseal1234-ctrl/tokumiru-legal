@@ -3,6 +3,9 @@ layout: page
 title: サポート
 eyebrow: Support
 lead: よくある質問、問い合わせ、アカウントとデータの取り扱いをまとめています。
+hero_image: /assets/images/lp/document-photo.webp
+hero_width: 1774
+hero_height: 887
 description: トクミルのよくある質問と問い合わせ窓口
 permalink: /support.html
 ---

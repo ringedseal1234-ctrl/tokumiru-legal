@@ -1,6 +1,7 @@
 ---
 layout: legal
 title: 特定商取引法に基づく表記
+legal_motif: commerce
 updated: 2026年7月4日
 summary: 将来、トクミルで有料機能を提供する場合の販売条件を表示します。
 description: トクミルの特定商取引法に基づく表記

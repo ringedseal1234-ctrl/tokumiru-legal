@@ -1,6 +1,7 @@
 ---
 layout: legal
 title: プライバシーポリシー
+legal_motif: privacy
 updated: 2026年7月4日
 summary: トクミルが取得する情報、利用目的、保存期間、外部サービスについて説明します。
 description: トクミルのプライバシーポリシー

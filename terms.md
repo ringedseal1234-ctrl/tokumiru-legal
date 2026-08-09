@@ -1,6 +1,7 @@
 ---
 layout: legal
 title: 利用規約
+legal_motif: terms
 updated: 2026年7月4日
 summary: トクミルを利用する際の条件と、価格・商品情報を利用する際の注意事項を定めます。
 description: トクミルの利用規約

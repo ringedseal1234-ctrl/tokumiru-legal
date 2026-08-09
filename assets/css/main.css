@@ -1058,6 +1058,62 @@ p {
   border-left-color: var(--color-secondary);
 }
 
+.data-deletion-form {
+  display: grid;
+  gap: 12px;
+  margin-block: 28px 34px;
+  padding: 24px;
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.data-deletion-form fieldset {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+}
+
+.data-deletion-form legend,
+.data-deletion-form label {
+  font-weight: 700;
+}
+
+.data-deletion-form input[type="email"],
+.data-deletion-form input[type="password"] {
+  width: 100%;
+  min-height: 46px;
+  padding: 9px 12px;
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.data-deletion-form input[type="email"]:focus,
+.data-deletion-form input[type="password"]:focus {
+  border-color: var(--color-focus);
+  box-shadow: var(--shadow-focus-ring);
+  outline: 0;
+}
+
+.data-deletion-form__confirm {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-block: 4px 8px;
+}
+
+.data-deletion-form .button {
+  justify-self: start;
+  cursor: pointer;
+  font: inherit;
+}
+
 .link-list {
   display: grid;
   margin-block: 24px;

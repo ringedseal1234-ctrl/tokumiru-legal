@@ -2,7 +2,7 @@
 layout: page
 title: アカウントとデータの削除
 eyebrow: Account & data
-lead: アプリ内の設定から、アカウントと関連データの削除を開始できます。
+lead: アプリ内またはこのページから、アカウントと関連データの削除を開始できます。
 description: トクミルのアカウントとデータを削除する方法
 permalink: /data-deletion.html
 ---
@@ -20,11 +20,36 @@ permalink: /data-deletion.html
 
 ## アプリを利用できない場合
 
-端末の故障などでアプリを操作できない場合は、登録したメールアドレスから問い合わせてください。
+端末の故障などでアプリを操作できない場合は、次のフォームを使用してください。入力内容はHTTPSでFirebase Authenticationと削除処理へ送信され、パスワードは保存しません。
 
-<p><a class="button" href="mailto:ringedseal1234+support@gmail.com?subject=%E3%83%88%E3%82%AF%E3%83%9F%E3%83%AB%20%E3%83%87%E3%83%BC%E3%82%BF%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC">削除を問い合わせる</a></p>
+<div class="status-note">
+  <strong>削除方法を選択</strong>
+  <p>「アカウントと関連データ」はFirebase Authenticationのアカウントも削除します。「データのみ」はアカウントを残し、Firebase上の関連データを削除します。Webフォームでは端末内の閲覧履歴・マイリスト・節約記録は削除できないため、アプリ内設定またはアプリデータの削除を使用してください。</p>
+</div>
 
-本人確認に必要な範囲を超える情報や、パスワードの送信は求めません。匿名アカウントで、アカウントを保存していない場合は、問い合わせから対象アカウントを特定できないことがあります。
+<form class="data-deletion-form" action="https://asia-northeast1-tokumiru-efa03.cloudfunctions.net/webDeleteAccount" method="post">
+  <fieldset>
+    <legend>削除方法</legend>
+    <label><input type="radio" name="mode" value="account" checked> アカウントと関連データを削除する</label>
+    <label><input type="radio" name="mode" value="data"> アカウントを残してデータを削除する</label>
+  </fieldset>
+
+  <label for="deletion-email">登録メールアドレス</label>
+  <input id="deletion-email" name="email" type="email" autocomplete="username" maxlength="320" required>
+
+  <label for="deletion-password">パスワード</label>
+  <input id="deletion-password" name="password" type="password" autocomplete="current-password" minlength="6" maxlength="4096" required>
+
+  <label class="data-deletion-form__confirm"><input name="confirm" type="checkbox" value="yes" required> 入力したアカウントで削除を実行することを確認しました</label>
+
+  <button class="button" type="submit">削除を実行する</button>
+</form>
+
+フォームを利用できない場合は、登録したメールアドレスから問い合わせてください。
+
+<p><a class="button" href="mailto:ringedseal1234+support@gmail.com?subject=%E3%83%88%E3%82%AF%E3%83%9F%E3%83%AB%20%E3%83%87%E3%83%BC%E3%82%BF%E5%89%8A%E9%A0%BC">削除を問い合わせる</a></p>
+
+フォームでは登録メールアドレスとパスワードをFirebase Authenticationの本人確認に使用しますが、当方はパスワードを保存しません。問い合わせメールにはパスワードを記載しないでください。匿名アカウントで、アカウントを保存していない場合は、問い合わせから対象アカウントを特定できないことがあります。
 
 ## 削除後も直ちに消えない場合がある情報
 

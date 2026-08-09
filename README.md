@@ -8,6 +8,7 @@
 - https://ringedseal1234-ctrl.github.io/tokumiru-legal/terms.html
 - https://ringedseal1234-ctrl.github.io/tokumiru-legal/privacy.html
 - https://ringedseal1234-ctrl.github.io/tokumiru-legal/tokushoho.html
+- https://ringedseal1234-ctrl.github.io/tokumiru-legal/data-deletion.html
 
 ## 構成
 

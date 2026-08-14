@@ -1776,7 +1776,7 @@ em { color: var(--color-primary); font-style: normal; }
 .hero-brand-lockup span { display: grid; gap: 1px; }
 .hero-brand-lockup strong { color: #fff; font-size: 17px; letter-spacing: .04em; }
 .hero-brand-lockup small { color: rgba(255,255,255,.58); font-size: 11px; font-weight: 700; }
-.hero--product h1 { max-width: 680px; margin-bottom: 20px; font-size: clamp(3.2rem, 5.4vw, 5.5rem); letter-spacing: -.06em; line-height: 1.05; }
+.hero--product h1 { max-width: 680px; margin-bottom: 20px; font-size: clamp(3.2rem, 4.4vw, 4.8rem); letter-spacing: -.06em; line-height: 1.05; }
 .hero--product .hero__tagline { max-width: 520px; font-size: clamp(1.15rem, 1.8vw, 1.5rem); letter-spacing: -.02em; }
 .hero--product .hero__description { max-width: 540px; }
 .hero--product .button { min-height: 52px; border-radius: 999px; }

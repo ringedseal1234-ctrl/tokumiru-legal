@@ -2,7 +2,7 @@
 layout: page
 title: サポート
 eyebrow: Support
-lead: よくある質問、問い合わせ、アカウントとデータの取り扱いをまとめています。
+lead: よくある質問、問い合わせ先、アカウントとデータの管理方法を案内します。
 hero_image: /assets/images/lp/document-photo.webp
 hero_width: 1774
 hero_height: 887
@@ -14,7 +14,7 @@ permalink: /support.html
 
 <div class="faq">
   <details>
-    <summary>表示された価格で必ず購入できますか？</summary>
+    <summary>表示された価格で購入できますか？</summary>
     <div>表示価格は取得時点の参考情報です。価格、送料、在庫、ポイント条件は変わる場合があります。購入前に各ECサイトや店舗で確認してください。</div>
   </details>
   <details>
@@ -26,35 +26,35 @@ permalink: /support.html
     <div>使えます。商品検索とEC価格比較には位置情報は不要です。近隣店舗候補や地域価格を利用するときだけ許可を求めます。</div>
   </details>
   <details>
-    <summary>機種変更後もデータを使えますか？</summary>
+    <summary>機種変更してもデータを引き継げますか？</summary>
     <div>設定画面でメールアドレスとパスワードを登録してアカウントを保存すると、別端末で復元できます。匿名のままアンインストールすると、データを復元できない場合があります。</div>
   </details>
   <details>
     <summary>Amazonの商品が一覧に出ないことがあります</summary>
-    <div>Amazonの商品データ連携は段階的に対応しています。直接の商品一覧を取得できない場合は、Amazonの商品検索ページへの案内を表示します。</div>
+    <div>Amazonの商品情報は段階的に対応しています。商品一覧を直接取得できない場合は、Amazonの商品検索ページをご案内します。</div>
   </details>
   <details>
     <summary>アプリ内のリンクはアフィリエイトリンクですか？</summary>
-    <div>一部のECサイトへのリンクにはアフィリエイト情報が含まれます。リンク経由で購入された場合、運営者が紹介料を受け取ることがあります。利用者の購入価格が上乗せされるものではありません。</div>
+    <div>一部のECサイトへのリンクにはアフィリエイト情報が含まれます。リンク経由で購入された場合、運営者が紹介料を受け取ることがあります。購入価格に上乗せされるものではありません。</div>
   </details>
 </div>
 
 <div class="support-shortcuts" aria-label="サポートの近道">
-  <a class="support-shortcut" href="#faq"><span class="support-shortcut__index">01</span><strong>まずFAQを見る</strong><span>よくある疑問を確認</span><b aria-hidden="true">↘</b></a>
-  <a class="support-shortcut" href="#contact"><span class="support-shortcut__index">02</span><strong>問い合わせる</strong><span>困った内容を送信</span><b aria-hidden="true">↘</b></a>
-  <a class="support-shortcut" href="#account-data"><span class="support-shortcut__index">03</span><strong>データを管理する</strong><span>削除・保存方針を見る</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#faq"><span class="support-shortcut__index">01</span><strong>まずFAQを確認</strong><span>よくある疑問を確認</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#contact"><span class="support-shortcut__index">02</span><strong>問い合わせる</strong><span>問い合わせ先を確認</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#account-data"><span class="support-shortcut__index">03</span><strong>データを管理する</strong><span>削除・保存の方針を確認</span><b aria-hidden="true">↘</b></a>
 </div>
 
 <section id="contact" class="support-contact-card">
 <p class="eyebrow">Need a hand?</p>
-<h2>解決しないときは、<br>直接問い合わせる。</h2>
-<p>不具合や法的文書についての問い合わせは、次のメールアドレスへ送信してください。</p>
+<h2>解決しないときは、<br>直接お問い合わせください。</h2>
+<p>不具合や法的文書についてのお問い合わせは、次のメールアドレスまでご連絡ください。</p>
 
 <p><a class="button" href="mailto:ringedseal1234+support@gmail.com?subject=%E3%83%88%E3%82%AF%E3%83%9F%E3%83%AB%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">メールで問い合わせる</a></p>
 </section>
 
 - メール: `ringedseal1234+support@gmail.com`
-- 通常、受付から2週間以内を目安に回答します
+- 受付後、通常2週間以内を目安に回答します
 - 商品の返品・配送・決済は、購入先のECサイトまたは店舗へ問い合わせてください
 
 問い合わせ時にAPIキー、パスワード、認証コードを送らないでください。不具合報告では、端末機種、OSバージョン、操作手順、表示されたメッセージがあると調査しやすくなります。

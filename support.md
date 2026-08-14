@@ -10,12 +10,6 @@ description: トクミルのよくある質問と問い合わせ窓口
 permalink: /support.html
 ---
 
-<div class="support-shortcuts" aria-label="サポートの目次">
-  <a class="support-shortcut" href="#faq"><span class="support-shortcut__index">01</span><strong>よくある質問</strong><span>価格・認識・位置情報など</span><b aria-hidden="true">↘</b></a>
-  <a class="support-shortcut" href="#contact"><span class="support-shortcut__index">02</span><strong>問い合わせ</strong><span>不具合や法的文書について</span><b aria-hidden="true">↘</b></a>
-  <a class="support-shortcut" href="#account-data"><span class="support-shortcut__index">03</span><strong>アカウントとデータ</strong><span>削除の方法と保存期間</span><b aria-hidden="true">↘</b></a>
-</div>
-
 <h2 id="faq">よくある質問</h2>
 
 <div class="faq">
@@ -24,7 +18,7 @@ permalink: /support.html
     <div>表示価格は取得時点の参考情報です。価格、送料、在庫、ポイント条件は変わる場合があります。購入前に各ECサイトや店舗で確認してください。</div>
   </details>
   <details>
-    <summary>商品がうまく認識されないときは？</summary>
+    <summary>商品が正しく認識されません</summary>
     <div>バーコードがある商品はバーコードスキャンを優先してください。パッケージ撮影では、明るい場所で商品正面を枠内へ収め、反射や手ぶれを避けると認識しやすくなります。</div>
   </details>
   <details>
@@ -36,7 +30,7 @@ permalink: /support.html
     <div>設定画面でメールアドレスとパスワードを登録してアカウントを保存すると、別端末で復元できます。匿名のままアンインストールすると、データを復元できない場合があります。</div>
   </details>
   <details>
-    <summary>Amazonの商品が表示されないのはなぜですか？</summary>
+    <summary>Amazonの商品が一覧に出ないことがあります</summary>
     <div>Amazonの商品情報は段階的に対応しています。商品一覧を直接取得できない場合は、Amazonの商品検索ページをご案内します。</div>
   </details>
   <details>
@@ -45,25 +39,32 @@ permalink: /support.html
   </details>
 </div>
 
+<div class="support-shortcuts" aria-label="サポートの近道">
+  <a class="support-shortcut" href="#faq"><span class="support-shortcut__index">01</span><strong>まずFAQを確認</strong><span>よくある疑問を確認</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#contact"><span class="support-shortcut__index">02</span><strong>問い合わせる</strong><span>問い合わせ先を確認</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#account-data"><span class="support-shortcut__index">03</span><strong>データを管理する</strong><span>削除・保存の方針を確認</span><b aria-hidden="true">↘</b></a>
+</div>
+
 <section id="contact" class="support-contact-card">
-<h2>見つからないときは、<br>メールでご連絡ください。</h2>
+<p class="eyebrow">Need a hand?</p>
+<h2>解決しないときは、<br>直接お問い合わせください。</h2>
 <p>不具合や法的文書についてのお問い合わせは、次のメールアドレスまでご連絡ください。</p>
 
 <p><a class="button" href="mailto:ringedseal1234+support@gmail.com?subject=%E3%83%88%E3%82%AF%E3%83%9F%E3%83%AB%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">メールで問い合わせる</a></p>
 </section>
 
 - メール: `ringedseal1234+support@gmail.com`
-- いただいたお問い合わせには、2週間以内を目安に返信します
+- 受付後、通常2週間以内を目安に回答します
 - 商品の返品・配送・決済は、購入先のECサイトまたは店舗へ問い合わせてください
 
-パスワードや認証コードは、問い合わせメールに書かないでください。不具合の報告では、端末の機種、OSのバージョン、操作の手順、表示されたメッセージがあると調査しやすくなります。
+問い合わせ時にAPIキー、パスワード、認証コードを送らないでください。不具合報告では、端末機種、OSバージョン、操作手順、表示されたメッセージがあると調査しやすくなります。
 
 <section id="account-data">
 <h2>アカウントとデータ</h2>
 
 <div class="link-list">
-  <a href="{{ "/data-deletion.html" | relative_url }}">アカウントとデータの削除方法</a>
-  <a href="{{ "/privacy.html" | relative_url }}">取得する情報と保存期間</a>
-  <a href="{{ "/legal.html" | relative_url }}">法的文書の一覧</a>
+  <a href="{{ "/data-deletion.html" | relative_url }}">アカウントとデータを削除する方法</a>
+  <a href="{{ "/privacy.html" | relative_url }}">取得情報と保存期間を確認する</a>
+  <a href="{{ "/legal.html" | relative_url }}">法的文書を見る</a>
 </div>
 </section>

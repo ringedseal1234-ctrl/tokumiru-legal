@@ -6,6 +6,7 @@ lead: URLが変更されたか、ページが削除された可能性があり�
 permalink: /404.html
 ---
 
-<p>ホームから目的の情報を探してください。</p>
-
-<p><a class="button" href="{{ "/" | relative_url }}">ホームへ戻る</a></p>
+<div class="not-found-card">
+  <img src="{{ "/assets/images/store/app-icon/tokumiru-app-icon.png" | relative_url }}" width="1254" height="1254" alt="" loading="eager" decoding="async">
+  <div><p class="eyebrow">Wrong turn</p><h2>お探しのページが、<br>見つかりません。</h2><p>URLが変更されたか、ページが削除された可能性があります。ホームから、もう一度探してみてください。</p><div class="not-found-card__actions"><a class="button" href="{{ "/" | relative_url }}">ホームへ戻る</a><a class="button button--secondary" href="{{ "/support.html" | relative_url }}">サポートを見る</a></div></div>
+</div>

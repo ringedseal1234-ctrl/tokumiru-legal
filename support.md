@@ -10,7 +10,7 @@ description: トクミルのよくある質問と問い合わせ窓口
 permalink: /support.html
 ---
 
-## よくある質問
+<h2 id="faq">よくある質問</h2>
 
 <div class="faq">
   <details>
@@ -39,11 +39,19 @@ permalink: /support.html
   </details>
 </div>
 
-## 問い合わせ
+<div class="support-shortcuts" aria-label="サポートの近道">
+  <a class="support-shortcut" href="#faq"><span class="support-shortcut__index">01</span><strong>まずFAQを見る</strong><span>よくある疑問を確認</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#contact"><span class="support-shortcut__index">02</span><strong>問い合わせる</strong><span>困った内容を送信</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#account-data"><span class="support-shortcut__index">03</span><strong>データを管理する</strong><span>削除・保存方針を見る</span><b aria-hidden="true">↘</b></a>
+</div>
 
-不具合や法的文書についての問い合わせは、次のメールアドレスへ送信してください。
+<section id="contact" class="support-contact-card">
+<p class="eyebrow">Need a hand?</p>
+<h2>解決しないときは、<br>直接問い合わせる。</h2>
+<p>不具合や法的文書についての問い合わせは、次のメールアドレスへ送信してください。</p>
 
 <p><a class="button" href="mailto:ringedseal1234+support@gmail.com?subject=%E3%83%88%E3%82%AF%E3%83%9F%E3%83%AB%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">メールで問い合わせる</a></p>
+</section>
 
 - メール: `ringedseal1234+support@gmail.com`
 - 通常、受付から2週間以内を目安に回答します
@@ -51,10 +59,12 @@ permalink: /support.html
 
 問い合わせ時にAPIキー、パスワード、認証コードを送らないでください。不具合報告では、端末機種、OSバージョン、操作手順、表示されたメッセージがあると調査しやすくなります。
 
-## アカウントとデータ
+<section id="account-data">
+<h2>アカウントとデータ</h2>
 
 <div class="link-list">
   <a href="{{ "/data-deletion.html" | relative_url }}">アカウントとデータを削除する方法</a>
   <a href="{{ "/privacy.html" | relative_url }}">取得情報と保存期間を確認する</a>
   <a href="{{ "/legal.html" | relative_url }}">法的文書を見る</a>
 </div>
+</section>

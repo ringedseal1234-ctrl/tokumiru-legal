@@ -2,14 +2,16 @@
   <div class="site-footer__inner">
     <div>
       <a class="brand brand--footer" href="{{ "/" | relative_url }}">
-        <span class="brand__mark" aria-hidden="true">ト</span>
+        <span class="brand__mark" aria-hidden="true"><span>ト</span><i></i></span>
         <span class="brand__name">トクミル</span>
       </a>
       <p class="site-footer__copy">買う前の「どっちがお得？」を、すばやく見比べる。</p>
+      <a class="footer-origin-link" href="{{ "/#journey" | relative_url }}">撮る・比べる・記録する <span aria-hidden="true">↗</span></a>
     </div>
     <nav class="footer-nav" aria-label="フッターナビゲーション">
       <div>
         <p class="footer-nav__title">サービス</p>
+        <a href="{{ "/" | relative_url }}">ホーム</a>
         <a href="{{ "/features.html" | relative_url }}">できること</a>
         <a href="{{ "/support.html" | relative_url }}">サポート</a>
         <a href="{{ "/data-deletion.html" | relative_url }}">データの削除</a>

@@ -1,7 +1,7 @@
 <header class="site-header" data-site-header>
   <div class="site-header__inner">
     <a class="brand" href="{{ "/" | relative_url }}" aria-label="トクミル ホーム">
-      <span class="brand__mark" aria-hidden="true">ト</span>
+      <span class="brand__mark" aria-hidden="true"><span>ト</span><i></i></span>
       <span class="brand__name">トクミル</span>
     </a>
 
@@ -9,14 +9,17 @@
       <a href="{{ "/features.html" | relative_url }}">できること</a>
       <a href="{{ "/support.html" | relative_url }}">サポート</a>
       <a href="{{ "/legal.html" | relative_url }}">法的情報</a>
+      <a class="desktop-nav__cta" href="{{ "/#journey" | relative_url }}">使い方を見る <span aria-hidden="true">↗</span></a>
     </nav>
 
     <details class="mobile-nav">
-      <summary>メニュー</summary>
+      <summary><span class="mobile-nav__label">メニュー</span><span class="mobile-nav__icon" aria-hidden="true">＋</span></summary>
       <nav aria-label="モバイルナビゲーション">
+        <a href="{{ "/" | relative_url }}">ホーム</a>
         <a href="{{ "/features.html" | relative_url }}">できること</a>
         <a href="{{ "/support.html" | relative_url }}">サポート</a>
         <a href="{{ "/legal.html" | relative_url }}">法的情報</a>
+        <a href="{{ "/data-deletion.html" | relative_url }}">データ削除</a>
       </nav>
     </details>
   </div>

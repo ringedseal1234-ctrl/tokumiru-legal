@@ -12,6 +12,7 @@ layout: default
 
   <article class="legal-document">
     <header class="legal-document__header">
+      <div class="legal-document__topline"><span>トクミル公開文書</span><a href="#legal-body">本文へ <span aria-hidden="true">↓</span></a></div>
       <span class="legal-document__motif legal-document__motif--{{ page.legal_motif | default: 'document' }}" aria-hidden="true"><i></i><i></i><i></i></span>
       <p class="eyebrow">Legal</p>
       <h1>{{ page.title }}</h1>
@@ -19,14 +20,17 @@ layout: default
       {% if page.summary %}<p class="legal-document__summary">{{ page.summary }}</p>{% endif %}
       <figure class="legal-document__art" aria-hidden="true"><img src="{{ "/assets/images/lp/document-photo.webp" | relative_url }}" width="1774" height="887" loading="lazy" decoding="async" alt=""></figure>
     </header>
-    <div class="legal-document__body">
+    <div id="legal-body" class="legal-document__body">
       {{ content }}
     </div>
+    <a class="legal-document__backtop" href="#main-content">ページ上部へ <span aria-hidden="true">↑</span></a>
   </article>
 
   <nav class="legal-siblings" aria-label="法的文書">
+    <a href="{{ "/legal.html" | relative_url }}">法的情報</a>
     <a href="{{ "/terms.html" | relative_url }}">利用規約</a>
     <a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>
     <a href="{{ "/tokushoho.html" | relative_url }}">特定商取引法に基づく表記</a>
+    <a href="{{ "/data-deletion.html" | relative_url }}">データ削除</a>
   </nav>
 </div>

@@ -10,11 +10,11 @@ description: トクミルの利用規約、プライバシーポリシー、特�
 permalink: /legal.html
 ---
 
-<div class="link-list">
-  <a href="{{ "/terms.html" | relative_url }}">利用規約</a>
-  <a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>
-  <a href="{{ "/tokushoho.html" | relative_url }}">特定商取引法に基づく表記</a>
-  <a href="{{ "/data-deletion.html" | relative_url }}">アカウントとデータの削除</a>
+<div class="legal-index-grid">
+  <a href="{{ "/terms.html" | relative_url }}"><span>01</span><strong>利用規約</strong><small>サービスを使う前に</small><b aria-hidden="true">↗</b></a>
+  <a href="{{ "/privacy.html" | relative_url }}"><span>02</span><strong>プライバシーポリシー</strong><small>情報の取り扱いについて</small><b aria-hidden="true">↗</b></a>
+  <a href="{{ "/tokushoho.html" | relative_url }}"><span>03</span><strong>特定商取引法に基づく表記</strong><small>運営者・取引情報</small><b aria-hidden="true">↗</b></a>
+  <a href="{{ "/data-deletion.html" | relative_url }}"><span>04</span><strong>アカウントとデータの削除</strong><small>削除方法と注意点</small><b aria-hidden="true">↗</b></a>
 </div>
 
 ## 文書の更新

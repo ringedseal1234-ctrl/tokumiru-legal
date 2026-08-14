@@ -18,7 +18,7 @@ permalink: /support.html
     <div>表示価格は取得時点の参考情報です。価格、送料、在庫、ポイント条件は変わる場合があります。購入前に各ECサイトや店舗で確認してください。</div>
   </details>
   <details>
-    <summary>商品が正しく認識されません</summary>
+    <summary>商品が正しく認識されないときはどうすればいいですか？</summary>
     <div>バーコードがある商品はバーコードスキャンを優先してください。パッケージ撮影では、明るい場所で商品正面を枠内へ収め、反射や手ぶれを避けると認識しやすくなります。</div>
   </details>
   <details>
@@ -30,7 +30,7 @@ permalink: /support.html
     <div>設定画面でメールアドレスとパスワードを登録してアカウントを保存すると、別端末で復元できます。匿名のままアンインストールすると、データを復元できない場合があります。</div>
   </details>
   <details>
-    <summary>Amazonの商品が一覧に出ないことがあります</summary>
+    <summary>Amazonの商品が一覧に出ないのはなぜですか？</summary>
     <div>Amazonの商品情報は段階的に対応しています。商品一覧を直接取得できない場合は、Amazonの商品検索ページをご案内します。</div>
   </details>
   <details>
@@ -40,9 +40,9 @@ permalink: /support.html
 </div>
 
 <div class="support-shortcuts" aria-label="サポートの近道">
-  <a class="support-shortcut" href="#faq"><span class="support-shortcut__index">01</span><strong>まずFAQを確認</strong><span>よくある疑問を確認</span><b aria-hidden="true">↘</b></a>
-  <a class="support-shortcut" href="#contact"><span class="support-shortcut__index">02</span><strong>問い合わせる</strong><span>問い合わせ先を確認</span><b aria-hidden="true">↘</b></a>
-  <a class="support-shortcut" href="#account-data"><span class="support-shortcut__index">03</span><strong>データを管理する</strong><span>削除・保存の方針を確認</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#faq"><span class="support-shortcut__index">01</span><strong>まずFAQを確認</strong><span>価格や認識、位置情報について</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#contact"><span class="support-shortcut__index">02</span><strong>問い合わせる</strong><span>不具合や法的文書について</span><b aria-hidden="true">↘</b></a>
+  <a class="support-shortcut" href="#account-data"><span class="support-shortcut__index">03</span><strong>データを管理する</strong><span>削除の方法と保存期間</span><b aria-hidden="true">↘</b></a>
 </div>
 
 <section id="contact" class="support-contact-card">
@@ -54,17 +54,17 @@ permalink: /support.html
 </section>
 
 - メール: `ringedseal1234+support@gmail.com`
-- 受付後、通常2週間以内を目安に回答します
+- いただいたお問い合わせには、2週間以内を目安に回答します
 - 商品の返品・配送・決済は、購入先のECサイトまたは店舗へ問い合わせてください
 
-問い合わせ時にAPIキー、パスワード、認証コードを送らないでください。不具合報告では、端末機種、OSバージョン、操作手順、表示されたメッセージがあると調査しやすくなります。
+パスワードや認証コードは、問い合わせメールに書かないでください。不具合の報告では、お使いの端末とOSのバージョン、操作した手順、表示されたメッセージを教えていただけると、調査がスムーズです。
 
 <section id="account-data">
 <h2>アカウントとデータ</h2>
 
 <div class="link-list">
-  <a href="{{ "/data-deletion.html" | relative_url }}">アカウントとデータを削除する方法</a>
-  <a href="{{ "/privacy.html" | relative_url }}">取得情報と保存期間を確認する</a>
-  <a href="{{ "/legal.html" | relative_url }}">法的文書を見る</a>
+  <a href="{{ "/data-deletion.html" | relative_url }}">アカウントとデータを削除する</a>
+  <a href="{{ "/privacy.html" | relative_url }}">取得する情報と保存期間を確認する</a>
+  <a href="{{ "/legal.html" | relative_url }}">法的文書の一覧を見る</a>
 </div>
 </section>

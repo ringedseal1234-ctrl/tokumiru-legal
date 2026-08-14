@@ -2,7 +2,7 @@
 layout: page
 title: できること
 eyebrow: Features
-lead: 商品を見つけ、価格を比べ、買い時を見つける。トクミルの使い方を画面で紹介します。
+lead: 商品を読み取り、価格を比べ、買い時を知る。トクミルの使い方を、画面で紹介します。
 hero_image: /assets/images/store/screenshots/price-comparison.png
 hero_width: 1080
 hero_height: 2400
@@ -12,17 +12,17 @@ permalink: /features.html
 
 <div class="feature-intro reveal">
   <div><p class="eyebrow">The everyday price companion</p><h2>迷う時間を減らして、<br><em>選ぶ時間</em>を増やす。</h2></div>
-  <p>買い物中の「これ、どっちがお得？」を、読み取り・比較・記録までひとつの流れでサポートします。</p>
+  <p>買い物中の「これ、どっちがお得？」に、読み取りから記録までひとつの流れで答えます。</p>
 </div>
 
 <div class="feature-journey-nav" aria-label="機能一覧">
-  <a href="#scan">01 読み取る</a><a href="#compare">02 比べる</a><a href="#pricebook">03 買い時</a><a href="#watch">04 待つ</a><a href="#review">05 振り返る</a><a href="#share">06 共有する</a><a href="#map">07 探す</a>
+  <a href="#scan">01 読み取る</a><a href="#compare">02 比べる</a><a href="#pricebook">03 買い時を知る</a><a href="#watch">04 値下がりを待つ</a><a href="#review">05 振り返る</a><a href="#share">06 共有する</a><a href="#map">07 探す</a>
 </div>
 
 <div class="feature-showcase feature-showcase--immersive">
   <article id="scan" class="feature-card feature-card--scan reveal">
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">01 / SCAN</span><img src="{{ "/assets/images/store/screenshots/home.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルのホーム画面"></div>
-    <div class="feature-card__copy"><p class="feature-card__number">01 / SCAN</p><h2>商品と店頭価格を読み取る</h2><h3>バーコードと値札をまとめて読み取る</h3><p>商品のJANコードをカメラで読み取り、値札の価格も比較に加えられます。バーコードが読み取れない商品は、パッケージ画像から候補を探せます。</p><p class="feature-card__hint">明るい場所で商品正面を枠内に収めると認識しやすくなります。認識結果は、確定前に確認してください。</p></div>
+    <div class="feature-card__copy"><p class="feature-card__number">01 / SCAN</p><h2>商品と店頭価格を読み取る</h2><h3>バーコードが読めなくても、パッケージから探せる</h3><p>商品のJANコードをカメラで読み取り、値札の価格も比較に加えられます。バーコードが読み取れない商品は、パッケージ画像から候補を探せます。</p><p class="feature-card__hint">明るい場所で商品正面を枠内に収めると認識しやすくなります。読み取った内容は、確定する前に確認してください。</p></div>
   </article>
 
   <article id="compare" class="feature-card feature-card--compare reveal">
@@ -32,37 +32,37 @@ permalink: /features.html
 
   <article id="pricebook" class="feature-card feature-card--pricebook reveal">
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">03 / PRICE BOOK</span><img src="{{ "/assets/images/store/screenshots/buying-time-note.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの買い時ノート画面"></div>
-    <div class="feature-card__copy"><p class="feature-card__number">03 / PRICE BOOK</p><h2>買い時を見つける</h2><h3>自分の底値と相場を、次の買い物に活かす</h3><p>購入記録から自分の過去の底値を確認し、次の買い物に活かせます。相場データが集まった商品は、価格の推移と買い時の目安も確認できます。</p><p class="feature-card__hint">相場の推移を見るには、データの蓄積が必要です。地域や商品によって表示内容が異なります。</p></div>
+    <div class="feature-card__copy"><p class="feature-card__number">03 / PRICE BOOK</p><h2>買い時を見つける</h2><h3>自分の底値と、まわりの相場をあわせて見る</h3><p>購入記録から、自分がこれまでで一番安く買えた価格を確認できます。記録が集まっている商品では、価格の推移と買い時の目安も表示されます。</p><p class="feature-card__hint">価格の推移を見るには、記録の蓄積が必要です。地域や商品によって表示内容が異なります。</p></div>
   </article>
 
   <article id="watch" class="feature-card feature-card--organize reveal">
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">04 / WATCH</span><img src="{{ "/assets/images/store/screenshots/my-list.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルのマイリスト画面"></div>
-    <div class="feature-card__copy"><p class="feature-card__number">04 / WATCH</p><h2>目標価格を待つ</h2><h3>マイリストで、買い時を逃さない</h3><p>気になる商品をマイリストに保存し、目標価格を設定できます。価格が目標に到達した商品は、アプリ内の表示や通知で確認できます。</p><p class="feature-card__hint">無料版とPremiumプランでは登録できる件数が異なります。通知は端末設定や価格の更新状況により届かない場合があります。</p></div>
+    <div class="feature-card__copy"><p class="feature-card__number">04 / WATCH</p><h2>値下がりを待つ</h2><h3>マイリストに入れて、目標価格を決めておく</h3><p>気になる商品をマイリストに保存し、目標価格を設定できます。目標価格まで下がると、アプリ内の表示や通知でお知らせします。</p><p class="feature-card__hint">無料版とPremiumプランでは登録できる件数が異なります。通知は端末設定や価格の更新状況により届かない場合があります。</p></div>
   </article>
 
   <article id="review" class="feature-card feature-card--report reveal">
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">05 / REVIEW</span><img src="{{ "/assets/images/store/screenshots/savings-report.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの節約レポート画面"></div>
-    <div class="feature-card__copy"><p class="feature-card__number">05 / REVIEW</p><h2>節約を振り返る</h2><h3>小さな差額の積み重ねを、見える成果に</h3><p>購入時に記録した差額を月別・年別で確認できます。カテゴリごとの傾向も見ながら、毎日の選択がどれだけ積み重なったかを振り返れます。</p><p class="feature-card__hint">記録したデータの扱いは、<a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>で確認できます。</p></div>
+    <div class="feature-card__copy"><p class="feature-card__number">05 / REVIEW</p><h2>節約を振り返る</h2><h3>小さな差額を、月ごと・年ごとにまとめて見る</h3><p>購入時に記録した差額を、月ごと・年ごとに確認できます。食品や日用品といったカテゴリごとの内訳も見られます。</p><p class="feature-card__hint">記録したデータの扱いは、<a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>で確認できます。</p></div>
   </article>
 
   <article id="share" class="feature-card feature-card--family reveal">
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">06 / SHARE</span><img src="{{ "/assets/images/store/screenshots/family-sharing.png" | relative_url }}" width="842" height="1869" loading="lazy" alt="パパとママとわたしの節約を確認できる家族レポート画面"></div>
-    <div class="feature-card__copy"><p class="feature-card__number">06 / SHARE</p><h2>家族で共有する</h2><h3>家族の記録を、次の買い物に活かす</h3><p>招待コードで家族グループに参加すると、買い物リストや節約記録を家族で共有できます。メンバーごとの記録も確認できます。</p><p class="feature-card__hint">共有する情報と保存期間は<a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>で確認できます。</p></div>
+    <div class="feature-card__copy"><p class="feature-card__number">06 / SHARE</p><h2>家族で共有する</h2><h3>買い物リストも節約記録も、家族みんなで</h3><p>招待コードで家族グループに参加すると、買い物リストや節約記録を家族で共有できます。だれがいくら節約したかも、メンバーごとに確認できます。</p><p class="feature-card__hint">共有する情報と保存期間は<a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>で確認できます。</p></div>
   </article>
 
   <article id="map" class="feature-card feature-card--map reveal">
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">07 / MAP BETA</span><img src="{{ "/assets/images/store/screenshots/lowest-price-map.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの最安値MAP画面"></div>
-    <div class="feature-card__copy"><p class="feature-card__number">07 / MAP BETA</p><h2>近くの最安値を探す</h2><h3>近くの価格を比べて、お店を選ぶ</h3><p>値札スキャンをきっかけに記録された周辺店舗の価格情報を、地図と一覧で確認。近くの価格を比べながら、行くお店を選べます。</p><p class="feature-card__hint">ベータ版の機能です。位置情報の利用は任意で、地域によってはデータが少なく表示されない場合があります。</p></div>
+    <div class="feature-card__copy"><p class="feature-card__number">07 / MAP BETA</p><h2>近くの最安値を探す</h2><h3>地図で見比べて、行くお店を決める</h3><p>値札を読み取ったときに記録された周辺のお店の価格を、地図と一覧で確認。近くの価格を見比べて、行くお店を選べます。</p><p class="feature-card__hint">ベータ版の機能です。位置情報の利用は任意で、地域によってはデータが少なく表示されない場合があります。</p></div>
   </article>
 </div>
 
-<div class="feature-ending reveal"><div><p class="eyebrow">One more thing</p><h2>好きなテーマで、<br>毎日の記録を続ける。</h2><p>Premiumではテーマを切り替え、自分の好みに合った画面でトクミルを使えます。</p></div><img src="{{ "/assets/images/store/screenshots/premium-themes.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルのプレミアムテーマ画面"></div>
+<div class="feature-ending reveal"><div><p class="eyebrow">Themes</p><h2>好きなテーマで、<br>毎日の記録を続ける。</h2><p>Premiumプランでは、アプリの配色を好みのテーマに切り替えられます。</p></div><img src="{{ "/assets/images/store/screenshots/premium-themes.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルのプレミアムテーマ画面"></div>
 
 ## 対応していないもの
 
 - 生鮮食品、店内調理品など、EC比較に適さない商品
-- 価格や在庫の完全なリアルタイム保証
+- 価格や在庫のリアルタイムな表示
 - すべての店舗・ECサイトの商品網羅
-- AI認識結果の完全な正確性
+- 画像認識の結果の完全な正確性
 
 トクミルは購入判断を補助するアプリです。最終的な価格・内容量・送料・在庫は販売元でご確認ください。

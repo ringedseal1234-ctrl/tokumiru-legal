@@ -2,7 +2,7 @@
 layout: page
 title: アカウントとデータの削除
 eyebrow: Account & data
-lead: アプリ内またはこのページから、アカウントと関連データの削除を開始できます。
+lead: アプリの設定画面、またはこのページのフォームから、アカウントと関連データを削除できます。
 description: トクミルのアカウントとデータを削除する方法
 permalink: /data-deletion.html
 ---
@@ -23,7 +23,7 @@ permalink: /data-deletion.html
 端末の故障などでアプリを操作できない場合は、次のフォームを使用してください。入力内容はHTTPSでFirebase Authenticationと削除処理へ送信され、パスワードは保存しません。
 
 <div class="status-note">
-  <strong>削除方法を選択</strong>
+  <strong>削除する範囲を選ぶ</strong>
   <p>「アカウントと関連データ」はFirebase Authenticationのアカウントも削除します。「データのみ」はアカウントを残し、Firebase上の関連データを削除します。Webフォームからは端末内の閲覧履歴・マイリスト・節約記録を削除できないため、アプリ内設定または端末のアプリデータ削除を利用してください。</p>
 </div>
 

@@ -46,7 +46,7 @@ permalink: /features.html
   </article>
 
   <article id="share" class="feature-card feature-card--family reveal">
-    <div class="feature-card__visual feature-card__visual--split"><div class="feature-card__mini-panel"><span>SHARE</span><strong>みんなで得する</strong><i>＋</i></div><img src="{{ "/assets/images/lp/community-loop-photo.webp" | relative_url }}" width="1448" height="1086" loading="lazy" alt="家族や地域に価格情報がつながるイメージ"></div>
+    <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">06 / SHARE</span><img src="{{ "/assets/images/store/screenshots/family-sharing.png" | relative_url }}" width="842" height="1869" loading="lazy" alt="パパとママとわたしの節約を確認できる家族レポート画面"></div>
     <div class="feature-card__copy"><p class="feature-card__number">06 / SHARE</p><h2>家族で共有する</h2><h3>買い物のヒントと節約を、ひとつに</h3><p>招待コードで家族グループに参加すると、共有の買い物リストと節約記録を一緒に確認できます。メンバーごとの記録も振り返れます。</p><p class="feature-card__hint">共有する情報と保存期間は<a href="{{ "/privacy.html" | relative_url }}">プライバシーポリシー</a>で確認できます。</p></div>
   </article>
 

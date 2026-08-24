@@ -15,8 +15,8 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
       </div>
       <p class="eyebrow">Compare · Choose · Remember</p>
       <h1 id="hero-title">みんなで得する<br>節約アプリ</h1>
-      <p class="hero__tagline">その値段、買う前に見比べる。</p>
-      <p class="hero__description">商品と値札を読み取り、店頭とネットの価格を比較。選んだ結果を記録して、次の買い物に活かせます。</p>
+      <p class="hero__tagline">本当の最安値を簡単比較</p>
+      <p class="hero__description">商品と値札を読み取り、店頭とネットの最安値を簡単比較。節約の成果をわかりやすく記録。</p>
       <div class="hero__actions">
         <a class="button" href="#journey">使い方を体験する <span aria-hidden="true">↓</span></a>
         <a class="button button--secondary" href="{{ "/features.html" | relative_url }}">できることを見る <span aria-hidden="true">↗</span></a>
@@ -37,7 +37,7 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
 
 <section class="signal-strip" aria-label="トクミルの特徴">
   <div class="content-shell signal-strip__inner">
-    <span>その場で比べる</span><i aria-hidden="true">→</i><span>納得して選ぶ</span><i aria-hidden="true">→</i><span>次の買い物に活かす</span>
+    <span>撮る・見つける</span><i aria-hidden="true">→</i><span>お得情報を比較</span><i aria-hidden="true">→</i><span>節約を記録</span>
   </div>
 </section>
 
@@ -45,13 +45,13 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
   <div class="content-shell">
     <header class="section-heading section-heading--center reveal">
       <p class="eyebrow">Better together</p>
-      <h2>一度の比較が、<br><em>次の買い物</em>にも効いてくる。</h2>
-      <p>トクミルは、まずあなた自身の買い物のためのアプリです。記録された価格は、個人が特定されない形で、ほかの人が安い店を探すときにも役立ちます。</p>
+      <h2>毎日の節約の積み重ねて<br><em>節約の成果</em>を実感できる。</h2>
+      <p>トクミルは日々の買い物をもっとお得にするための節約アプリです。自分の節約が、みんなのお得にも役立ちます。</p>
     </header>
     <div class="community-loop community-loop--modern">
-      <article class="loop-step reveal"><span class="loop-step__number">01</span><span class="loop-step__icon" aria-hidden="true">⌁</span><h3>その場で比べる</h3><p>バーコードと値札から、店頭とECの価格を見比べます。</p><span class="loop-step__line" aria-hidden="true"></span></article>
-      <article class="loop-step reveal"><span class="loop-step__number">02</span><span class="loop-step__icon" aria-hidden="true">＋</span><h3>買ったものを記録する</h3><p>いくらで買えたかが、自分の底値として残ります。</p><span class="loop-step__line" aria-hidden="true"></span></article>
-      <article class="loop-step reveal"><span class="loop-step__number">03</span><span class="loop-step__icon" aria-hidden="true">⌖</span><h3>みんなの買い物に役立つ</h3><p>記録された価格が、近くの安い店を探す手がかりになります。</p><span class="loop-step__line" aria-hidden="true"></span></article>
+      <article class="loop-step reveal"><span class="loop-step__number">01</span><span class="loop-step__icon" aria-hidden="true">⌁</span><h3>スキャンで比較</h3><p>バーコード・パッケージと値札を撮影、店頭とネットの最安値を見比べます。</p><span class="loop-step__line" aria-hidden="true"></span></article>
+      <article class="loop-step reveal"><span class="loop-step__number">02</span><span class="loop-step__icon" aria-hidden="true">＋</span><h3>節約を記録する</h3><p>どのくらいお得に買えたか、節約額を記録します。</p><span class="loop-step__line" aria-hidden="true"></span></article>
+      <article class="loop-step reveal"><span class="loop-step__number">03</span><span class="loop-step__icon" aria-hidden="true">⌖</span><h3>次の買い物に役立つ</h3><p>記録した価格で買い時を逃さずチェック、みんなの記録から近くの最安値が見つかる。</p><span class="loop-step__line" aria-hidden="true"></span></article>
     </div>
   </div>
 </section>
@@ -59,7 +59,7 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
 <section class="section journey-section" id="journey" data-journey>
   <div class="content-shell">
     <header class="section-heading journey-heading reveal">
-      <div><p class="eyebrow">A little less guesswork</p><h2>いつもの買い物に、<br><em>比べるひと手間</em>を。</h2></div>
+      <div><p class="eyebrow">A little less guesswork</p><h2>いつもの買い物で<br><em>比べて得する</em></h2></div>
       <p>スクロールに合わせて画面が切り替わります。読み取りから記録まで、5つの画面で紹介します。</p>
     </header>
     <div class="journey-layout">
@@ -73,8 +73,8 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
         <div class="journey-stage__footer"><span data-journey-stage-count>01 / 05</span><span>スクロールで切り替わります</span></div>
       </div>
       <div class="journey-steps">
-        <article class="journey-step is-active reveal" data-journey-step data-image="{{ "/assets/images/store/screenshots/home.png" | relative_url }}" data-alt="トクミルのホーム画面" data-caption="ホームから、いつもの買い物を始める" data-count="01 / 05">
-          <span class="journey-step__number">01</span><div><p class="journey-step__label">START</p><h3>いつもの買い物から始める</h3><p>ホームには、これまでの節約額と読み取りのボタン。気になった商品をその場で読み取れます。</p></div>
+        <article class="journey-step is-active reveal" data-journey-step data-image="{{ "/assets/images/store/screenshots/home.png" | relative_url }}" data-alt="トクミルのホーム画面" data-caption="店頭で購入したい商品を撮影" data-count="01 / 05">
+          <span class="journey-step__number">01</span><div><p class="journey-step__label">START</p><h3>気になる商品を撮影</h3><p>スマホのカメラを使って気になる商品の値札を撮影。</p></div>
           <img src="{{ "/assets/images/store/screenshots/home.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルのホーム画面">
         </article>
         <article class="journey-step reveal" data-journey-step data-image="{{ "/assets/images/store/screenshots/price-comparison.png" | relative_url }}" data-alt="トクミルの価格比較画面" data-caption="店頭価格とネット価格を比べる" data-count="02 / 05">
@@ -85,12 +85,12 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
           <span class="journey-step__number">03</span><div><p class="journey-step__label">REMEMBER</p><h3>自分の買い時を見つける</h3><p>いつもの商品を、前にいくらで買ったか。買い時ノートが、自分だけの底値の記録になります。</p></div>
           <img src="{{ "/assets/images/store/screenshots/buying-time-note.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの買い時ノート画面">
         </article>
-        <article class="journey-step reveal" data-journey-step data-image="{{ "/assets/images/store/screenshots/savings-report.png" | relative_url }}" data-alt="トクミルの節約レポート画面" data-caption="積み重ねた成果を振り返る" data-count="04 / 05">
-          <span class="journey-step__number">04</span><div><p class="journey-step__label">REVIEW</p><h3>積み重ねた成果を振り返る</h3><p>日々の小さな差額を、月ごと・年ごとの節約レポートで確認。続けてきた分が、そのまま金額で残ります。</p></div>
+        <article class="journey-step reveal" data-journey-step data-image="{{ "/assets/images/store/screenshots/savings-report.png" | relative_url }}" data-alt="トクミルの節約レポート画面" data-caption="節約の成果を振り返る" data-count="04 / 05">
+          <span class="journey-step__number">04</span><div><p class="journey-step__label">REVIEW</p><h3>節約の成果を振り返る</h3><p>日々の節約の積み重ねを、月ごと・年ごとの節約レポートで確認。節約の結果が金額でわかる。</p></div>
           <img src="{{ "/assets/images/store/screenshots/savings-report.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの節約レポート画面">
         </article>
         <article class="journey-step reveal" data-journey-step data-image="{{ "/assets/images/store/screenshots/lowest-price-map.png" | relative_url }}" data-alt="トクミルの最安値MAP画面" data-caption="近くの価格を、次の買い物のヒントにする" data-count="05 / 05">
-          <span class="journey-step__number">05</span><div><p class="journey-step__label">MAP</p><h3>近くの最安値を探す</h3><p>みんなの投稿から、近くの価格を確認できます。位置情報の利用は任意で、投稿した人がわかる情報は公開しません。</p></div>
+          <span class="journey-step__number">05</span><div><p class="journey-step__label">MAP</p><h3>近くの最安値を探す</h3><p>みんなの投稿から、近くの価格を比較できます。おうちに居てもお得な情報をゲット。</p></div>
           <img src="{{ "/assets/images/store/screenshots/lowest-price-map.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの最安値MAP画面">
         </article>
       </div>
@@ -100,20 +100,20 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
 
 <section class="section savings-feature" aria-labelledby="savings-title">
   <div class="content-shell savings-feature__layout">
-    <div class="savings-feature__copy reveal"><p class="eyebrow">Small savings add up</p><h2 id="savings-title">節約は、<br><em>積み重ね</em>が見えると続く。</h2><p>買い物のたびに生まれる小さな差額を、トクミルは記録に残します。月ごと・年ごとにまとめて見ると、続けてきた分がはっきりわかります。</p><a class="text-link" href="{{ "/features.html" | relative_url }}#review">節約レポートの詳細を見る <span aria-hidden="true">↗</span></a></div>
+    <div class="savings-feature__copy reveal"><p class="eyebrow">Small savings add up</p><h2 id="savings-title">節約は、<br><em>具体的な成果</em>が見えると続く。</h2><p>買い物のたびに生まれる小さな差額を、トクミルは記録に残します。月ごと・年ごとにまとめて見ると、続けてきた節約額がはっきりわかります。</p><a class="text-link" href="{{ "/features.html" | relative_url }}#review">節約レポートの詳細を見る <span aria-hidden="true">↗</span></a></div>
     <figure class="savings-feature__visual reveal"><div class="savings-feature__line" aria-hidden="true"><i></i><i></i><i></i><i></i></div><img src="{{ "/assets/images/store/screenshots/savings-report.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの節約レポート画面"></figure>
   </div>
 </section>
 
 <section class="section section--map community-section">
   <div class="content-shell split-feature split-feature--community">
-    <div class="split-feature__copy reveal"><p class="eyebrow">Lowest price map · beta</p><h2>近くのお店の値段を、<br><em>みんな</em>で持ち寄る。</h2><p>値札を読み取ったときに記録された価格を、地図と一覧で確認。個人を特定する情報は公開せず、みんなの次の買い物に役立てます。</p><ul class="feature-points"><li>位置情報の利用は任意</li><li>個人を特定する情報は公開しない</li><li>地域や時期によって情報が少ない場合があります</li></ul></div>
+    <div class="split-feature__copy reveal"><p class="eyebrow">Lowest price map · beta</p><h2>みんなの投稿から<br><em>周辺地域の最安値</em>を共有。</h2><p>値札を読み取ったときに記録された価格を、地図と一覧で確認。自分の節約が、みんなの次の買い物にも役立ちます。</p><ul class="feature-points"><li>完全匿名</li><li>位置情報の利用は任意</li><li>地域や時期によって情報が少ない場合があります</li></ul></div>
     <figure class="map-art reveal"><img src="{{ "/assets/images/store/screenshots/lowest-price-map.png" | relative_url }}" width="1080" height="2400" loading="lazy" alt="トクミルの最安値MAP画面"></figure>
   </div>
 </section>
 
 <section class="section section--trust trust-section">
-  <div class="content-shell"><header class="section-heading section-heading--center reveal"><p class="eyebrow">Designed with care</p><h2>便利さの前に、<br><em>安心できること。</em></h2><p>必要な情報だけを、必要なときにだけ使います。</p></header><div class="trust-grid reveal"><article class="trust-item"><span class="trust-item__icon" aria-hidden="true">◎</span><h3>位置情報は任意</h3><p>近くの価格を使うときだけ許可を求めます。</p></article><article class="trust-item"><span class="trust-item__icon" aria-hidden="true">◇</span><h3>投稿者は匿名</h3><p>公開する価格情報に、投稿した人の情報は含めません。</p></article><article class="trust-item"><span class="trust-item__icon" aria-hidden="true">↘</span><h3>いつでも削除</h3><p>アカウントと関連データを、まとめて削除できます。</p></article></div></div>
+  <div class="content-shell"><header class="section-heading section-heading--center reveal"><p class="eyebrow">Designed with care</p><h2>便利さの前に、<br><em>安心できること。</em></h2><p>必要な情報だけを、必要なときにだけ使います。</p></header><div class="trust-grid reveal"><article class="trust-item"><span class="trust-item__icon" aria-hidden="true">◎</span><h3>位置情報は任意</h3><p>近くの価格を使うときだけ許可を求めます。</p></article><article class="trust-item"><span class="trust-item__icon" aria-hidden="true">◇</span><h3>完全に匿名</h3><p>公開する価格情報に、投稿した人の情報は含めません。</p></article><article class="trust-item"><span class="trust-item__icon" aria-hidden="true">↘</span><h3>いつでも削除</h3><p>アカウントと関連データを、まとめて削除できます。</p></article></div></div>
 </section>
 
 <section class="section section--accent release-section" id="release"><div class="content-shell cta-band reveal"><div><p class="eyebrow">Coming soon</p><h2>公開に向けて、準備中です。</h2><p>ストアでの公開後、このサイトでダウンロード先をお知らせします。</p></div><a class="button button--light" href="{{ "/support.html" | relative_url }}">サポート情報を見る <span aria-hidden="true">↗</span></a></div></section>

@@ -23,7 +23,7 @@ permalink: /support.html
   </details>
   <details>
     <summary>位置情報を許可しなくても使えますか？</summary>
-    <div>使えます。商品検索とEC価格比較には位置情報は不要です。近隣店舗候補や地域価格を利用するときだけ許可を求めます。</div>
+    <div>使えます。商品検索とネット価格比較には位置情報は不要です。近隣店舗候補や地域価格を利用するときだけ許可を求めます。</div>
   </details>
   <details>
     <summary>機種変更してもデータを引き継げますか？</summary>

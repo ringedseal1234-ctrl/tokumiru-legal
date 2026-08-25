@@ -5,6 +5,7 @@
 ## Commands
 
 - ローカル起動: `bundle exec jekyll serve` → http://127.0.0.1:4000/tokumiru-legal/
+- 画像の最適化: `scripts/optimize-images.sh`(スクリーンショット差し替え後に必須)
 - 初回セットアップ・詳細は [README.md](README.md) を参照
 
 ## Verification
@@ -27,6 +28,8 @@
 
 ## Gotchas
 
+- `assets/images/store/` のPNGはストア入稿用の原本で、**ページが参照しているのは同名の `.webp`**。スクリーンショットを差し替えたら `scripts/optimize-images.sh` を実行してWebPを作り直す。実行し忘れるとサイトに古い画像が出続ける。PNGのままページに貼ると1枚1〜2MBになり、低速回線で読み込みに失敗する。
+- OGP画像(`index.md` の front matter `image:`)だけはPNGのまま。WebPのOGP画像を読めないSNSがあるため。
 - 外部リソース(Google Fonts、解析タグ、CDN等)を追加しない — [0002](docs/adr/0002-no-cookies-no-analytics-no-external-resources.md)。デザイン強化はシステムフォント・自己完結アセットのみで行う。
 - Flutterアプリのソースコード・Firebase設定・APIキー・`.env`・個人情報を含む画像は絶対にこのリポジトリに置かない — [0001](docs/adr/0001-app-source-lives-in-a-separate-repository.md)。
 - `.github/workflows/verify.yml` は過去に混入した「誤字のGitHub Pagesドメイン」「仮の料金文言」「全角括弧」を機械的に禁止している(具体的な禁止パターンはワークフローファイル本体を参照)。同種の文言を新たに書かない。禁止パターンの文字列そのものをドキュメントに引用すると、そのドキュメント自身がgrepに引っかかるので注意する。

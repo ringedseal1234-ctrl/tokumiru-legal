@@ -29,6 +29,7 @@
 ## Gotchas
 
 - `assets/images/store/` のPNGはストア入稿用の原本で、**ページが参照しているのは同名の `.webp`**。スクリーンショットを差し替えたら `scripts/optimize-images.sh` を実行してWebPを作り直す。実行し忘れるとサイトに古い画像が出続ける。PNGのままページに貼ると1枚1〜2MBになり、低速回線で読み込みに失敗する。
+- WebPの出力幅は原寸ではなく「サイト上での最大表示幅の約2.4倍」に固定してある(`scripts/optimize-images.sh` の `target_width()`)。表示幅を変えるCSS(`.split-feature--family` / `.feature-showcase--immersive ... img` / `.feature-ending` / `.not-found-card` など)を触ったら `target_width()` を見直し、`--force` で再生成する。`<img>` の `width`/`height` 属性は生成後のWebPの実寸に合わせる(CLS対策)。
 - OGP画像(`index.md` の front matter `image:`)だけはPNGのまま。WebPのOGP画像を読めないSNSがあるため。
 - 外部リソース(Google Fonts、解析タグ、CDN等)を追加しない — [0002](docs/adr/0002-no-cookies-no-analytics-no-external-resources.md)。デザイン強化はシステムフォント・自己完結アセットのみで行う。
 - Flutterアプリのソースコード・Firebase設定・APIキー・`.env`・個人情報を含む画像は絶対にこのリポジトリに置かない — [0001](docs/adr/0001-app-source-lives-in-a-separate-repository.md)。

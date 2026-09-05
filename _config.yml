@@ -5,6 +5,17 @@ url: https://ringedseal1234-ctrl.github.io
 baseurl: /tokumiru-legal
 repository: ringedseal1234-ctrl/tokumiru-legal
 
+# アプリ配信状況（/dl.html のリンク・振り分けに使う）。
+# app_store_id: App Store Connect でアプリレコードを作ると採番される数値ID。
+#   未確定のうちは空のままにする（空なら iOS へのリンク・自動遷移を出さない）。
+# play_live:    Google Play で公開したら true にする。
+#   false のうちは Play へのリンク・自動遷移を出さない（未公開URLは404になるため）。
+# アプリ側のシェア文はこのページを指すので、ここを更新するだけで
+# 配布済みアプリからの導線もすべて正しいストアへ届く（再ビルド・再申請は不要）。
+app_store_id: ""
+play_package: jp.tokumiru.app
+play_live: false
+
 markdown: kramdown
 kramdown:
   input: GFM

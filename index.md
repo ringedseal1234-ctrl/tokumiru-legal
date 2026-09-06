@@ -4,9 +4,11 @@ description: 商品と値札を撮るだけで、店頭とネットの最安値�
 permalink: /
 body_class: home
 image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
+three_scene: true
+preload_image: /assets/images/store/screenshots/price-comparison.webp
 ---
 
-<section class="hero hero--community hero--product" aria-labelledby="hero-title">
+<section class="hero hero--community hero--product hero--price-wave" aria-labelledby="hero-title" data-price-hero>
   <div class="hero__inner content-shell">
     <div class="hero__copy">
       <div class="hero-brand-lockup">
@@ -14,22 +16,27 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
         <span><strong>トクミル</strong></span>
       </div>
       <p class="eyebrow">Scan · Compare · Save</p>
-      <h1 id="hero-title">みんなで得する<br>節約アプリ</h1>
-      <p class="hero__tagline">本当の最安値を簡単比較</p>
-      <p class="hero__description">商品と値札を撮るだけで、店頭とネットの最安値を簡単比較。節約の成果をわかりやすく記録。</p>
+      <h1 id="hero-title">その値段、<br><em>もっとお得かも。</em></h1>
+      <p class="hero__tagline">撮るだけで、店頭とネットの最安値をその場で比較。</p>
+      <p class="hero__description">送料や内容量まで同じ条件にそろえて比べるから、本当にお得な価格がわかる。見つけた節約は、毎日の成果として残せます。</p>
       <div class="hero__actions">
-        <a class="button" href="#journey">使い方を体験する <span aria-hidden="true">↓</span></a>
-        <a class="button button--secondary" href="{{ "/features.html" | relative_url }}">できることを見る <span aria-hidden="true">↗</span></a>
+        <a class="button" href="#journey">使い方を見る <span aria-hidden="true">↓</span></a>
+        <a class="button button--secondary" href="{{ "/dl.html" | relative_url }}">ダウンロード <span aria-hidden="true">↗</span></a>
       </div>
       <p class="release-status"><span class="release-status__dot" aria-hidden="true"></span> Android版・iOS版を公開準備中</p>
     </div>
-    <div class="hero-art hero-art--store" aria-label="トクミルのフィーチャーグラフィック">
-      <div class="hero-art__orb hero-art__orb--one" aria-hidden="true"></div>
-      <div class="hero-art__orb hero-art__orb--two" aria-hidden="true"></div>
-      <figure class="hero-art__feature">
-        <img src="{{ "/assets/images/store/feature-graphic/tokumiru-feature-graphic.webp" | relative_url }}" width="1024" height="500" fetchpriority="high" decoding="async" alt="トクミルの利用イメージ。撮る、比べる、記録する">
+    <div class="price-wave" data-price-scene aria-label="トクミルで店頭価格とネット価格を比較するイメージ">
+      <div class="price-wave__fallback" aria-hidden="true"></div>
+      <div class="price-wave__grid" aria-hidden="true"></div>
+      <p class="price-wave__label" aria-hidden="true"><span></span> LIVE PRICE CHECK</p>
+      <div class="price-wave__prices" aria-hidden="true">
+        <span><small>店頭価格</small><strong>¥861</strong></span>
+        <span><small>ネット価格</small><strong>¥1,047</strong></span>
+      </div>
+      <figure class="price-wave__phone">
+        <img src="{{ "/assets/images/store/screenshots/price-comparison.webp" | relative_url }}" width="810" height="1800" fetchpriority="high" decoding="async" alt="店頭価格とネット価格を比較できるトクミルの価格比較画面">
       </figure>
-      <div class="hero-art__scan-tag" aria-hidden="true"><span class="hero-art__scan-tag-dot"></span><span>PRICE CHECK</span><strong>✓</strong></div>
+      <div class="price-wave__best" aria-hidden="true"><span>BEST PRICE</span><strong>店頭がお得</strong><small>ネットより ¥186 お得</small></div>
     </div>
   </div>
   <div class="hero__scroll-cue" aria-hidden="true"><span>SCROLL TO DISCOVER</span><i></i></div>
@@ -45,8 +52,8 @@ image: /assets/images/store/feature-graphic/tokumiru-feature-graphic.png
   <div class="content-shell">
     <header class="section-heading section-heading--center reveal">
       <p class="eyebrow">How it works</p>
-      <h2>毎日の節約を積み重ねて<br><em>節約の成果</em>を実感できる。</h2>
-      <p>トクミルは日々の買い物をもっとお得にするための節約アプリです。自分の節約が、みんなのお得にも役立ちます。</p>
+      <h2>迷っていた値段が、<br><em>買っていい値段</em>に変わる。</h2>
+      <p>トクミルは、目の前の商品が本当にお得かを確かめ、毎日の節約を続けやすくするアプリです。自分の記録は、家族や地域のお得にもつながります。</p>
     </header>
     <div class="community-loop community-loop--modern">
       <article class="loop-step reveal"><span class="loop-step__number">01</span><span class="loop-step__icon" aria-hidden="true">⌁</span><h3>スキャンで比較</h3><p>バーコード・パッケージと値札を撮影、店頭とネットの最安値を見比べます。</p><span class="loop-step__line" aria-hidden="true"></span></article>

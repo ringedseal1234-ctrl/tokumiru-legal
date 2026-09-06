@@ -18,7 +18,7 @@
 <link rel="canonical" href="{{ canonical_url }}">
 <link rel="icon" href="{{ "/assets/images/favicon.png" | relative_url }}" type="image/png" sizes="64x64">
 <link rel="apple-touch-icon" href="{{ "/assets/images/apple-touch-icon.png" | relative_url }}">
-<link rel="preload" as="image" href="{{ "/assets/images/store/feature-graphic/tokumiru-feature-graphic.webp" | relative_url }}" fetchpriority="high">
+{% if page.preload_image %}<link rel="preload" as="image" href="{{ page.preload_image | relative_url }}" fetchpriority="high">{% endif %}
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
 
 <meta property="og:type" content="website">

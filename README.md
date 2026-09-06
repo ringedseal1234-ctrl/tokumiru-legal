@@ -16,8 +16,11 @@
 - Jekyll
 - Markdown
 - 独自HTML/CSS
-- JavaScriptなし
+- 外部依存のないvanilla JavaScript
+- トップページの装飾に自己ホストしたthree.js r185
 - Cookie・ウェブ分析なし
+
+three.jsは`assets/third-party/three/`へ配布ファイルとMITライセンスを同梱し、トップページでのみ読み込む。CDNなどの外部リソースは使用しない。バージョンを更新する場合は、本体とライセンスを同じリリースから取得し、モバイル表示・動きの抑制設定・WebGL非対応時のフォールバックを確認する。
 
 ## ローカル確認
 

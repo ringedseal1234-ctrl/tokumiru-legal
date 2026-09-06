@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: できること
 eyebrow: Features
 lead: 撮って、比べて、買い時がわかる。トクミルでできることを画面で紹介します。
@@ -8,8 +8,40 @@ hero_width: 810
 hero_height: 1800
 description: トクミルのバーコード・値札スキャン、価格比較、買い時ノート、節約レポート、家族共有、最安値MAPなどの機能
 permalink: /features.html
+body_class: features-page
+portal_scene: true
+preload_image: /assets/images/store/screenshots/price-comparison.webp
 ---
 
+<section class="hero hero--portal features-portal" aria-labelledby="features-title" data-portal-hero>
+  <div class="hero__viewport">
+    <div class="portal-scene" data-portal-scene aria-hidden="true">
+      <div class="portal-scene__fallback"><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="features-portal__grid" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="hero__inner content-shell">
+      <div class="hero__copy">
+        <p class="eyebrow">Features</p>
+        <h1 id="features-title">できること</h1>
+        <p class="hero__tagline">撮って、比べて、<br>買い時がわかる。</p>
+        <p class="hero__description">トクミルでできることを画面で紹介します。</p>
+        <nav class="features-portal__index" aria-label="機能一覧">
+          <a href="#scan"><span>01</span>撮る</a><a href="#compare"><span>02</span>比べる</a><a href="#pricebook"><span>03</span>買い時を知る</a><a href="#watch"><span>04</span>値下がりを待つ</a><a href="#review"><span>05</span>振り返る</a><a href="#share"><span>06</span>共有する</a><a href="#map"><span>07</span>探す</a>
+        </nav>
+      </div>
+      <div class="portal-art features-portal__art" aria-label="トクミルの機能画面">
+        <figure class="portal-art__screen portal-art__screen--home"><img src="{{ "/assets/images/store/screenshots/buying-time-note.webp" | relative_url }}" width="810" height="1800" fetchpriority="high" decoding="async" alt=""></figure>
+        <figure class="portal-art__screen portal-art__screen--compare"><img src="{{ "/assets/images/store/screenshots/price-comparison.webp" | relative_url }}" width="810" height="1800" fetchpriority="high" decoding="async" alt="トクミルの価格比較画面"></figure>
+        <figure class="portal-art__screen portal-art__screen--report"><img src="{{ "/assets/images/store/screenshots/lowest-price-map.webp" | relative_url }}" width="810" height="1800" decoding="async" alt=""></figure>
+        <div class="portal-art__scan-frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      </div>
+    </div>
+    <div class="hero__scroll-cue" aria-hidden="true"><span>SCROLL TO DISCOVER</span><i></i></div>
+  </div>
+</section>
+
+<div class="features-page-content">
+<section class="features-manifesto content-shell">
 <div class="feature-intro reveal">
   <div><p class="eyebrow">The everyday price companion</p><h2>撮って比べるだけで、<br><em>いちばん安い</em>が見つかる</h2></div>
   <p>買い物中の「これ、どっちがお得？」に、撮影から記録までひとつの流れで答えます。</p>
@@ -18,8 +50,9 @@ permalink: /features.html
 <div class="feature-journey-nav" aria-label="機能一覧">
   <a href="#scan">01 撮る</a><a href="#compare">02 比べる</a><a href="#pricebook">03 買い時を知る</a><a href="#watch">04 値下がりを待つ</a><a href="#review">05 振り返る</a><a href="#share">06 共有する</a><a href="#map">07 探す</a>
 </div>
+</section>
 
-<div class="feature-showcase feature-showcase--immersive">
+<section class="feature-showcase feature-showcase--immersive content-shell">
   <article id="scan" class="feature-card feature-card--scan reveal">
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">01 / SCAN</span><img src="{{ "/assets/images/store/screenshots/home.webp" | relative_url }}" width="810" height="1800" loading="lazy" alt="トクミルのホーム画面"></div>
     <div class="feature-card__copy"><p class="feature-card__number">01 / SCAN</p><h2>商品と値札を撮る</h2><h3>バーコードが読めなくても、パッケージから探せる</h3><p>商品のJANコードをカメラでスキャンし、値札の価格も比較に加えられます。バーコードをスキャンできない商品は、パッケージを撮影して候補を探せます。</p><p class="feature-card__hint">明るい場所で商品正面を枠内に収めると認識しやすくなります。スキャンした内容は、確定する前に確認してください。</p></div>
@@ -54,15 +87,15 @@ permalink: /features.html
     <div class="feature-card__visual feature-card__visual--screen"><span class="feature-card__visual-label">07 / MAP BETA</span><img src="{{ "/assets/images/store/screenshots/lowest-price-map.webp" | relative_url }}" width="810" height="1800" loading="lazy" alt="トクミルの最安値MAP画面"></div>
     <div class="feature-card__copy"><p class="feature-card__number">07 / MAP BETA</p><h2>近くの最安値を探す</h2><h3>地図で見比べて、行くお店を決める</h3><p>値札をスキャンしたときに記録された周辺のお店の価格を、地図と一覧で確認。近くの価格を見比べて、行くお店を選べます。</p><p class="feature-card__hint">ベータ版の機能です。位置情報の利用は任意で、地域によってはデータが少なく表示されない場合があります。</p></div>
   </article>
+</section>
+
+<div class="feature-ending-wrap content-shell"><div class="feature-ending reveal"><div><p class="eyebrow">Themes</p><h2>好きなテーマで、<br>毎日の記録を続ける。</h2><p>Premiumプランでは、アプリの配色を好みのテーマに切り替えられます。</p></div><img src="{{ "/assets/images/store/screenshots/premium-themes.webp" | relative_url }}" width="540" height="1200" loading="lazy" alt="トクミルのプレミアムテーマ画面"></div></div>
+
+<section class="feature-boundaries content-shell reveal">
+  <div class="feature-boundaries__heading"><h2>対応していないもの</h2></div>
+  <div class="feature-boundaries__body">
+    <ul><li>生鮮食品、店内調理品など、EC比較に適さない商品</li><li>価格や在庫のリアルタイムな表示</li><li>すべての店舗・ECサイトの商品網羅</li><li>画像認識の結果の完全な正確性</li></ul>
+    <p>トクミルは購入判断を補助するアプリです。最終的な価格・内容量・送料・在庫は販売元でご確認ください。</p>
+  </div>
+</section>
 </div>
-
-<div class="feature-ending reveal"><div><p class="eyebrow">Themes</p><h2>好きなテーマで、<br>毎日の記録を続ける。</h2><p>Premiumプランでは、アプリの配色を好みのテーマに切り替えられます。</p></div><img src="{{ "/assets/images/store/screenshots/premium-themes.webp" | relative_url }}" width="540" height="1200" loading="lazy" alt="トクミルのプレミアムテーマ画面"></div>
-
-## 対応していないもの
-
-- 生鮮食品、店内調理品など、EC比較に適さない商品
-- 価格や在庫のリアルタイムな表示
-- すべての店舗・ECサイトの商品網羅
-- 画像認識の結果の完全な正確性
-
-トクミルは購入判断を補助するアプリです。最終的な価格・内容量・送料・在庫は販売元でご確認ください。

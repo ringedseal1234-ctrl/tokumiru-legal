@@ -11,6 +11,6 @@
     </main>
     {% include footer.html %}
     <script src="{{ "/assets/js/main.js" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}" defer></script>
-    {% if page.three_scene %}<script type="module" src="{{ "/assets/js/price-wave.js" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>{% endif %}
+    {% if page.portal_scene %}<script type="module" src="{{ "/assets/js/portal-scene.js" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>{% endif %}
   </body>
 </html>

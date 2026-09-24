@@ -49,7 +49,7 @@ sitemap: false
 <ul>
   <li>商品と値札を撮るだけで、店頭価格とネット価格をその場で比較できます。</li>
   <li>買った記録から節約額が積み上がり、月ごと・年ごとに振り返れます。</li>
-  <li>マイリストに入れた商品が目標価格まで下がったら通知が届きます。</li>
+  <li>マイリストに入れた商品が目標価格以下になったら通知が届きます。</li>
 </ul>
 
 <p><a class="text-link" href="{{ "/features.html" | relative_url }}">機能の詳細を見る</a> ／ <a class="text-link" href="{{ "/support.html" | relative_url }}">サポート</a></p>

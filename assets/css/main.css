@@ -3061,6 +3061,35 @@ body.home {
   line-height: 1.8;
 }
 
+.plan-compare { margin-top: clamp(48px,7vw,90px); }
+
+.plan-table {
+  width: 100%;
+  margin: 0 0 24px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.plan-table th,
+.plan-table td {
+  padding: 12px 8px;
+  border-bottom: 1px solid rgba(7,29,19,.12);
+  text-align: left;
+  vertical-align: top;
+}
+
+.plan-table thead th {
+  color: var(--color-text-muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.plan-table tbody th { color: var(--portal-ink); font-weight: 750; }
+
+.plan-table td { white-space: nowrap; }
+
+.plan-table td:last-child { color: var(--color-primary); font-weight: 750; }
+
 @media (max-width: 1020px) {
   .features-portal .hero__inner { grid-template-columns: minmax(360px,.8fr) minmax(410px,1.2fr); }
   .features-page .feature-card,

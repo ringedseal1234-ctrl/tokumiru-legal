@@ -1915,7 +1915,7 @@ em { color: var(--color-primary); font-style: normal; }
 }
 
 @media (max-width: 620px) {
-  .signal-strip__inner { min-height: 58px; justify-content: flex-start; gap: 12px; overflow-x: auto; white-space: nowrap; font-size: 10px; }
+  .signal-strip__inner { min-height: 58px; justify-content: center; gap: 12px; overflow-x: auto; white-space: nowrap; font-size: 10px; }
   .signal-strip__inner i { font-size: 15px; }
   .hero--product .hero__inner { padding-block: 48px 64px; }
   .hero-brand-lockup { margin-bottom: 22px; }.hero-brand-lockup img { width: 42px; height: 42px; border-radius: 12px; }
